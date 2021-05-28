@@ -1,0 +1,4 @@
+Control_linear.c(490): Warning! W131: No prototype found for function 'inpd'
+Control_linear.c(490): Warning! W131: No prototype found for function 'outpd'
+Control_linear.c(490): Warning! W131: No prototype found for function 'outpw'
+Control_linear.c(1395): Warning! W131: No prototype found for function 'inpw'

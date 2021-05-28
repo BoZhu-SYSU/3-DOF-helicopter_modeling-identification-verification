@@ -1,0 +1,1843 @@
+ Control_linear_sfun
+
+ Timestamp is 57b1be20 (Mon Aug 15 21:05:36 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0002e474H .text                   CODE
+ 0002:00000000 0000024cH .idata$5                DATA
+ 0002:0000024c 00000004H .CRT$XCA                DATA
+ 0002:00000250 00000004H .CRT$XCZ                DATA
+ 0002:00000254 00000004H .CRT$XIA                DATA
+ 0002:00000258 00000004H .CRT$XIAA               DATA
+ 0002:0000025c 00000004H .CRT$XIC                DATA
+ 0002:00000260 00000004H .CRT$XIZ                DATA
+ 0002:00000268 000045a8H .rdata                  DATA
+ 0002:00004810 00000004H .rdata$sxdata           DATA
+ 0002:00004814 00000004H .rtc$IAA                DATA
+ 0002:00004818 00000004H .rtc$IZZ                DATA
+ 0002:0000481c 00000004H .rtc$TAA                DATA
+ 0002:00004820 00000004H .rtc$TZZ                DATA
+ 0002:00004828 00000064H .xdata$x                DATA
+ 0002:0000488c 000000a0H .idata$2                DATA
+ 0002:0000492c 00000014H .idata$3                DATA
+ 0002:00004940 0000024cH .idata$4                DATA
+ 0002:00004b8c 00000abeH .idata$6                DATA
+ 0002:00005650 00000059H .edata                  DATA
+ 0003:00000000 00002fa0H .data                   DATA
+ 0003:00002fa0 00002368H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _sf_c1_Control_linear_get_eml_resolved_functions_info 10001000 f   c1_Control_linear.obj
+ 0001:000005a0       _sf_c1_Control_linear_get_check_sum 100015a0 f   c1_Control_linear.obj
+ 0001:00000600       _sf_c1_Control_linear_get_autoinheritance_info 10001600 f   c1_Control_linear.obj
+ 0001:00001080       _sf_internal_get_sim_state_c1_Control_linear 10002080 f   c1_Control_linear.obj
+ 0001:00001380       _sf_internal_set_sim_state_c1_Control_linear 10002380 f   c1_Control_linear.obj
+ 0001:000016f0       _sf_c1_Control_linear_get_testpoint_info 100026f0 f   c1_Control_linear.obj
+ 0001:00001720       _c1_Control_linear_method_dispatcher 10002720 f   c1_Control_linear.obj
+ 0001:000035e0       _sf_c2_Control_linear_get_eml_resolved_functions_info 100045e0 f   c2_Control_linear.obj
+ 0001:00003c00       _sf_c2_Control_linear_get_check_sum 10004c00 f   c2_Control_linear.obj
+ 0001:00003c60       _sf_c2_Control_linear_get_autoinheritance_info 10004c60 f   c2_Control_linear.obj
+ 0001:00004170       _sf_internal_get_sim_state_c2_Control_linear 10005170 f   c2_Control_linear.obj
+ 0001:00004470       _sf_internal_set_sim_state_c2_Control_linear 10005470 f   c2_Control_linear.obj
+ 0001:000047e0       _sf_c2_Control_linear_get_testpoint_info 100057e0 f   c2_Control_linear.obj
+ 0001:00004810       _c2_Control_linear_method_dispatcher 10005810 f   c2_Control_linear.obj
+ 0001:00005e30       _sf_process_check_sum_call 10006e30 f   Control_linear_sfun_registry.obj
+ 0001:00005e60       _sf_process_testpoint_info_call 10006e60 f   Control_linear_sfun_registry.obj
+ 0001:00005e90       _sf_process_autoinheritance_call 10006e90 f   Control_linear_sfun_registry.obj
+ 0001:00005fd0       _sf_process_get_eml_resolved_functions_info_call 10006fd0 f   Control_linear_sfun_registry.obj
+ 0001:000060f0       _sf_mex_unlock_call        100070f0 f   Control_linear_sfun_registry.obj
+ 0001:00006180       _sf_machine_global_initializer_called 10007180 f   Control_linear_sfun_registry.obj
+ 0001:000061a0       _sf_machine_global_method_dispatcher 100071a0 f   Control_linear_sfun_registry.obj
+ 0001:000061e0       _sf_machine_global_terminator 100071e0 f   Control_linear_sfun_registry.obj
+ 0001:00006210       _sf_register_machine_exported_symbols 10007210 f   Control_linear_sfun_registry.obj
+ 0001:00006230       _callCustomFcn             10007230 f   Control_linear_sfun_registry.obj
+ 0001:00006240       _sf_machine_global_initializer 10007240 f   Control_linear_sfun_registry.obj
+ 0001:000062a0       __ssSetStateAbsTol         100072a0 f   Control_linear_sfun_registry.obj
+ 0001:00006340       __ssGetAbsTol              10007340 f   Control_linear_sfun_registry.obj
+ 0001:00006390       __ssSetInputPortMatrixDimensions 10007390 f   Control_linear_sfun_registry.obj
+ 0001:00006440       __ssSetOutputPortMatrixDimensions 10007440 f   Control_linear_sfun_registry.obj
+ 0001:000064f0       __ssSetInputPortVectorDimension 100074f0 f   Control_linear_sfun_registry.obj
+ 0001:00006570       __ssSetOutputPortVectorDimension 10007570 f   Control_linear_sfun_registry.obj
+ 0001:000065f0       _ssIsRunTimeParamTunable   100075f0 f   Control_linear_sfun_registry.obj
+ 0001:00006650       _ssGetSFuncBlockHandle     10007650 f   Control_linear_sfun_registry.obj
+ 0001:000066a0       __ssGetCurrentInputPortWidth 100076a0 f   Control_linear_sfun_registry.obj
+ 0001:00006770       __ssGetCurrentOutputPortWidth 10007770 f   Control_linear_sfun_registry.obj
+ 0001:00006840       __ssGetCallSystemNumFcnCallDestinations 10007840 f   Control_linear_sfun_registry.obj
+ 0001:000068a0       _ssWarning                 100078a0 f   Control_linear_sfun_registry.obj
+ 0001:00006980       _ssGetIsZeroCrossControlDisabled 10007980 f   Control_linear_sfun_registry.obj
+ 0001:000069e0       _ssSetIsInputPortUsedForContZcSignal 100079e0 f   Control_linear_sfun_registry.obj
+ 0001:00006a30       _ssSetZcSignalIsZcElementDisc 10007a30 f   Control_linear_sfun_registry.obj
+ 0001:00006ab0       _ssSetZcSignalName         10007ab0 f   Control_linear_sfun_registry.obj
+ 0001:00006b00       _ssSetZcSignalWidth        10007b00 f   Control_linear_sfun_registry.obj
+ 0001:00006b50       _ssSetZcSignalZcEventType  10007b50 f   Control_linear_sfun_registry.obj
+ 0001:00006ba0       _ssSetZcSignalType         10007ba0 f   Control_linear_sfun_registry.obj
+ 0001:00006bf0       _ssSetZcSignalZcTol        10007bf0 f   Control_linear_sfun_registry.obj
+ 0001:00006c40       _ssSetZcSignalNeedsEventNotification 10007c40 f   Control_linear_sfun_registry.obj
+ 0001:00006c90       _ssCreateAndAddZcSignalInfo 10007c90 f   Control_linear_sfun_registry.obj
+ 0001:00006cf0       _ssCloneAndAddZcSignalInfo 10007cf0 f   Control_linear_sfun_registry.obj
+ 0001:00006d50       _ssGetNumZcSignals         10007d50 f   Control_linear_sfun_registry.obj
+ 0001:00006db0       _ssGetZcSignalVector       10007db0 f   Control_linear_sfun_registry.obj
+ 0001:00006e10       _ssGetZcSignalZcEvents     10007e10 f   Control_linear_sfun_registry.obj
+ 0001:00006e70       _ssGetZcSignalName         10007e70 f   Control_linear_sfun_registry.obj
+ 0001:00006ed0       _ssGetZcSignalWidth        10007ed0 f   Control_linear_sfun_registry.obj
+ 0001:00006f30       _ssGetZcSignalZcEventType  10007f30 f   Control_linear_sfun_registry.obj
+ 0001:00006f90       _ssGetZcSignalType         10007f90 f   Control_linear_sfun_registry.obj
+ 0001:00006ff0       _ssGetZcSignalZcTol        10007ff0 f   Control_linear_sfun_registry.obj
+ 0001:00007050       _ssGetZcSignalNeedsEventNotification 10008050 f   Control_linear_sfun_registry.obj
+ 0001:000070b0       _ssGetZcSignalIsZcElementDisc 100080b0 f   Control_linear_sfun_registry.obj
+ 0001:00007130       _ssGetIsInputPortElementContinuous 10008130 f   Control_linear_sfun_registry.obj
+ 0001:000071b0       __ssGetInputPortSignalPtrsFcn 100081b0 f   Control_linear_sfun_registry.obj
+ 0001:000073b0       __ssGetInputPortSignalFcn  100083b0 f   Control_linear_sfun_registry.obj
+ 0001:00007540       __ssSetInputPortDirectFeedThroughFcn 10008540 f   Control_linear_sfun_registry.obj
+ 0001:00007670       __ssSetInputPortReusableFcn 10008670 f   Control_linear_sfun_registry.obj
+ 0001:00007700       __ssSetOutputPortReusableFcn 10008700 f   Control_linear_sfun_registry.obj
+ 0001:00007790       _ssGetDTypeIdFromMxArray   10008790 f   Control_linear_sfun_registry.obj
+ 0001:00007880       _ssWriteRTWStr             10008880 f   Control_linear_sfun_registry.obj
+ 0001:000078c0       _ssWriteRTWMxVectParam     100088c0 f   Control_linear_sfun_registry.obj
+ 0001:00007900       _ssWriteRTWMx2dMatParam    10008900 f   Control_linear_sfun_registry.obj
+ 0001:00007940       _ssWriteRTWNameValuePair   10008940 f   Control_linear_sfun_registry.obj
+ 0001:00007cb0       _ssWriteRTWParameters      10008cb0 f   Control_linear_sfun_registry.obj
+ 0001:00008050       _ssWriteRTWParamSettings   10009050 f   Control_linear_sfun_registry.obj
+ 0001:00008500       _ssWriteRTWWorkVect        10009500 f   Control_linear_sfun_registry.obj
+ 0001:00008890       _mexFunction               10009890 f   Control_linear_sfun_registry.obj
+ 0001:00009fe0       _ProcessMexSfunctionEveryCall 1000afe0 f   Control_linear_sfun_registry.obj
+ 0001:0000a0f0       _Control_linear_initializer 1000b0f0 f   Control_linear_sfun.obj
+ 0001:0000a100       _Control_linear_terminator 1000b100 f   Control_linear_sfun.obj
+ 0001:0000a110       _sf_Control_linear_method_dispatcher 1000b110 f   Control_linear_sfun.obj
+ 0001:0000a160       _sf_Control_linear_process_testpoint_info_call 1000b160 f   Control_linear_sfun.obj
+ 0001:0000a2d0       _sf_Control_linear_process_check_sum_call 1000b2d0 f   Control_linear_sfun.obj
+ 0001:0000a690       _sf_Control_linear_autoinheritance_info 1000b690 f   Control_linear_sfun.obj
+ 0001:0000a7f0       _sf_Control_linear_get_eml_resolved_functions_info 1000b7f0 f   Control_linear_sfun.obj
+ 0001:0000a910       _Control_linear_debug_initialize 1000b910 f   Control_linear_sfun.obj
+ 0001:0000a960       _Control_linear_register_exported_symbols 1000b960 f   Control_linear_sfun.obj
+ 0001:0000a970       _load_Control_linear_optimization_info 1000b970 f   Control_linear_sfun.obj
+ 0001:0000a9b0       _unload_Control_linear_optimization_info 1000b9b0 f   Control_linear_sfun.obj
+ 0001:0000aa80       _sf_mex_mx_is_numeric      1000ba80 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aac0       _strcmp_ignore_ws          1000bac0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000abe0       _sf_mex_duplicatearraysafe 1000bbe0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000adc0       _sf_set_error_debugger_context_message_fcn 1000bdc0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000add0       _sf_set_debugger_matlab_error_fcn 1000bdd0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000adf0       _sf_set_error_prefix_string 1000bdf0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae20       _sf_get_error_prefix_string 1000be20 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae30       _sf_mex_enter_parallel_region 1000be30 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae40       _sf_mex_exit_parallel_region 1000be40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae50       _sf_get_current_jmp_buf_ptr 1000be50 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae60       _sf_set_current_jmp_buf_ptr 1000be60 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae70       _sf_mex_set_halt_simulation 1000be70 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae80       _sf_mex_get_halt_simulation 1000be80 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ae90       _sf_mex_clear_error_message 1000be90 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aeb0       _sf_mex_get_error_message_for_read 1000beb0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aec0       _sf_mex_get_error_message_buffer_length 1000bec0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000af90       _sf_mex_warning_message    1000bf90 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000afe0       _sf_mex_v_errbuf_createf   1000bfe0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b000       _sf_mex_errbuf_createf     1000c000 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b020       _sf_mex_v_errbuf_catf      1000c020 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b060       _sf_mex_errbuf_catf        1000c060 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b0a0       _sf_mex_errbuf_copy        1000c0a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b0c0       _sf_mex_errbuf_clear       1000c0c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b0d0       _sf_mex_errbuf_isempty     1000c0d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b160       _sf_mex_set_error_status   1000c160 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b190       _sf_mex_error_direct_call  1000c190 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b1b0       _sf_mex_error_message_no_long_jump 1000c1b0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b1e0       _sf_mex_long_jump_on_error 1000c1e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b210       _sf_mex_call_matlab        1000c210 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b2e0       _sf_mex_check_builtin      1000c2e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b340       _sf_mex_check_builtin_vs   1000c340 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b3a0       _sf_mex_check_enum         1000c3a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b3f0       _sf_mex_create_enum        1000c3f0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b440       _sf_mex_get_enum_element   1000c440 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b450       _sf_mex_createcellarray    1000c450 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b470       _sf_mex_setcell            1000c470 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b480       _sf_mex_getcell            1000c480 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b490       _sf_mex_dup                1000c490 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b4c0       _sf_mex_assign             1000c4c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b510       _sf_mex_destroy            1000c510 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b530       _mx_array_has_fi_type      1000c530 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b560       _sf_mex_convert_from_fi    1000c560 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b640       _sf_mex_convert_to_double  1000c640 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b680       _sf_mex_import_fi_vs       1000c680 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b7e0       _sf_matrix_matrix_index_ok 1000c7e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b850       _sf_vector_vector_index_ok 1000c850 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b880       _ssGetCurrentInputPortDimensions_wrapper 1000c880 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b8a0       _ssGetCurrentOutputPortDimensions_wrapper 1000c8a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b8c0       _sf_mex_emlrt_context_is_debug_mode 1000c8c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b8d0       _sf_mex_emlrt_context_set_debug_mode 1000c8d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b8e0       _sf_mex_emlrtNameCapturePostProcessR2012a 1000c8e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b940       _sf_clear_error_manager_info 1000c940 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b990       _sf_mex_stop_simulation_abruptly_wo_error 1000c990 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b9c0       _sf_mex_error_message      1000c9c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ba10       _sf_react_to_error_in_matlab_call 1000ca10 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ba30       _sf_mex_addfield           1000ca30 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bab0       _sf_mex_getfield           1000cab0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bd30       _sf_mex_check_class        1000cd30 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bdb0       _sf_mex_is_real            1000cdb0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bfc0       _sf_mex_decode_encoded_mx_struct_array 1000cfc0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c160       _sf_mex_lw_bounds_check    1000d160 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c190       _sf_mex_lw_size_eq_check_1d 1000d190 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c1b0       _sf_mex_lw_size_eq_check_nd 1000d1b0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c290       _sf_mex_lw_dim_size_eq_check 1000d290 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c2c0       _sf_mex_lw_dim_size_geq_check 1000d2c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c2f0       _sf_mex_lw_sub_assign_size_check_nd 1000d2f0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c420       _sf_mex_lw_runtime_error_msgid 1000d420 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c4d0       _sf_mex_lw_matrix_matrix_index_check 1000d4d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c500       _sf_mex_lw_vector_vector_index_check 1000d500 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c540       _sf_mex_lw_for_loop_vector_check 1000d540 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c5a0       _sf_mex_lw_non_negative_check 1000d5a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c5d0       _sf_mex_overflow_error     1000d5d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c5e0       _sf_mex_dividebyzero_error 1000d5e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c5f0       _sf_mex_unsafe_enum_error  1000d5f0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c600       _sf_emlrtErrHandler        1000d600 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c6c0       _sf_mex_size_one_check     1000d6c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c6e0       _sf_mex_printf             1000d6e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c7c0       _sf_mex_check_size         1000d7c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ca40       _sf_mex_check_struct       1000da40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000cc90       _sf_mex_check_struct_vs    1000dc90 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ccd0       _sf_mex_check_fi           1000dcd0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000cda0       _sf_mex_check_fi_vs        1000dda0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000cdf0       _sf_echo_expression        1000ddf0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ce40       _sf_assertion_failed       1000de40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d0d0       _sf_mex_evalin             1000e0d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d330       _sf_mex_export             1000e330 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d3e0       _sf_mex_get_ml_var_no_error 1000e3e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d540       _sf_mex_get_ml_var         1000e540 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000da10       _ml_set_element_value_in_array 1000ea10 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000eb40       _sf_mex_call_impl          1000fb40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000eed0       _sf_mex_call_debug         1000fed0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000eef0       _sf_mex_call               1000fef0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f600       _sf_mex_createstruct       10010600 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f6a0       _sf_mex_createstructarray  100106a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f700       _sf_mex_get_mx_datatype_from_sf_datatype 10010700 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f980       _sf_mex_ml_var_sub         10010980 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000faf0       _sf_mex_ml_var_subsasgn    10010af0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000fe00       _sf_mex_sub                10010e00 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ffa0       _sf_mex_subsasgn           10010fa0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010380       _sf_mex_create             10011380 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010c70       _sf_mex_import_named       10011c70 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010cc0       _sf_mex_import             10011cc0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010d00       _sf_mex_import_vs          10011d00 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010d90       _sf_mex_lower_fixpt_mx_array 10011d90 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010f50       _sf_send_message_wrapper   10011f50 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00010f80       _sf_receive_message_wrapper 10011f80 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00010fc0       _sf_check_out_message_wrapper 10011fc0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011000       _sf_check_in_message_wrapper 10012000 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011040       _sf_no_message_wrapper     10012040 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000112b0       _sim_mode_is_rtw_gen       100122b0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000112f0       _sim_mode_is_external      100122f0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011310       _sim_mode_is_modelref_sim  10012310 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011340       _mdlInitializeSizes        10012340 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011360       _mdlInitializeSampleTimes  10012360 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000113a0       _mdlZeroCrossings          100123a0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011450       _mdlDerivatives            10012450 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000114f0       _mdl_initialize_conditions_processing 100124f0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011520       _mdlInitializeConditions   10012520 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000115c0       _mdlGetSimState            100125c0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000115e0       _mdlSetSimState            100125e0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011600       _mdl_ext_mode_exec_processing 10012600 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011620       _mdlExtModeExec            10012620 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000117b0       _mdlTerminate              100127b0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011810       _mdlRTW                    10012810 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011840       _mdlSetWorkWidths          10012840 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011860       _mdlProcessParameters      10012860 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011880       _mdl_start_processing      10012880 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000118d0       _mdlStart                  100128d0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011980       _mdlEnable                 10012980 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011a30       _mdlDisable                10012a30 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011ac0       _sf_get_chart_instance_ptr 10012ac0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011ae0       _sf_load_rtw_optimization_info 10012ae0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011b80       _sf_rtw_info_uint_prop     10012b80 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011ca0       _sf_is_chart_inlinable     10012ca0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011cd0       _sf_mark_output_events_with_multiple_callers 10012cd0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011e30       _sf_mark_chart_reusable_outputs 10012e30 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011f90       _sf_mark_chart_expressionable_inputs 10012f90 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000120f0       _sf_get_subchart_simstruct 100130f0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012130       _sf_get_fixpt_data_type_id 10013130 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012170       _sf_get_enum_data_type_id  10013170 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000121b0       _sf_get_param_data_type_id 100131b0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000121e0       _sf_mex_listen_for_ctrl_c_force 100131e0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000122e0       _sf_mex_draw_now           100132e0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012320       _sf_mex_set_debugger_sim_status_listener_fcn 10013320 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012330       _sf_mex_listen_for_ctrl_c  10013330 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000123c0       _sf_mex_get_sfun_param     100133c0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012410       _sf_get_runtime_param_data 10013410 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012450       _sf_call_output_fcn_call   10013450 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012570       _sf_call_output_fcn_enable 10013570 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000125f0       _sf_call_output_fcn_disable 100135f0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012670       _sf_clear_rtw_identifier   10013670 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012ea0       _sf_set_encoded_dwork_info 10013ea0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012ee0       _sf_get_dwork_info_from_mat_file 10013ee0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00013030       _sf_set_rtw_dwork_info     10014030 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00013150       _mdlOutputs                10014150 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00013260       _sf_debug_disp             10014260 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013460       _sf_debug_data_runtime_size_mismatch_error_check 10014460 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000134a0       _sf_debug_try_loading_machine 100144a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013570       _sf_debug_reset_current_state_configuration 10014570 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000135b0       _sf_debug_store_current_state_configuration 100145b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000135f0       _sf_debug_restore_previous_state_configuration 100145f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013630       _sf_debug_restore_previous_state_configuration2 10014630 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013670       _sf_debug_get_event_scope  10014670 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013790       _use_debugger_step_animation 10014790 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000137b0       _sf_debug_get_script_id    100147b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013840       _sf_debug_set_script_translation 10014840 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013970       _sf_debug_extract_message_post_receive_info 10014970 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013a30       _sf_debug_get_current_machine_id 10014a30 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013a50       _sf_debug_get_current_optional_integer 10014a50 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013a60       _sf_debug_get_current_machine_number 10014a60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013a80       _sf_debug_get_current_machine_name 10014a80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013aa0       _sf_debug_get_current_chart_id 10014aa0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013ad0       _sf_debug_get_current_chart_number 10014ad0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013ae0       _sf_debug_get_current_instance_number 10014ae0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013af0       _sf_debug_get_current_is_minor_time_step 10014af0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013b60       _sf_debug_get_current_object_type 10014b60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013b70       _sf_debug_get_current_instance_handle 10014b70 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013bc0       _sf_debug_get_current_event_type 10014bc0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013bd0       _sf_debug_get_current_object_id 10014bd0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013c00       _sf_debug_get_current_active_event_type 10014c00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013c10       _sf_debug_get_current_active_event_id 10014c10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013c40       _sf_debug_get_current_tag_type 10014c40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013c50       _sf_debug_get_current_simulation_time 10014c50 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013c60       _sf_debug_get_current_coverage_percentage 10014c60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013c70       _sf_debug_current_statement_context 10014c70 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013cf0       _sf_debug_get_current_statement_info 10014cf0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013e30       _sf_debug_terminate_instance 10014e30 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000140d0       _sf_debug_assertion_failed 100150d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014350       _sf_debug_set_number_of_data_with_change_event_for_machine 10015350 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014390       _sf_debug_set_machine_event_thresholds 10015390 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000143c0       _sf_debug_set_machine_event_scope 100153c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014400       _sf_debug_set_machine_data_thresholds 10015400 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014440       _sf_debug_set_machine_data_scope 10015440 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000144c0       _sf_debug_set_machine_data_name 100154c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014510       _sf_debug_set_machine_data_size 10015510 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014600       _sf_debug_set_machine_data_type 10015600 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014720       _sf_debug_get_chart_data_number 10015720 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014750       _sf_debug_get_chart_event_number 10015750 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014780       _sf_debug_set_chart_state_info 10015780 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014800       _sf_debug_set_chart_decomposition 10015800 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014870       _sf_debug_set_chart_substate_count 10015870 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014930       _sf_debug_set_chart_substate_index 10015930 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000149a0       _sf_debug_set_chart_state_substate_count 100159a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014a80       _sf_debug_set_chart_state_substate_index 10015a80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014b00       _sf_debug_set_number_of_data_with_change_event_for_chart 10015b00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014b80       _sf_debug_set_number_of_states_with_entry_event_for_chart 10015b80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014bf0       _sf_debug_set_number_of_states_with_exit_event_for_chart 10015bf0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014c60       _sf_debug_set_chart_disable_implicit_casting 10015c60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014cd0       _sf_debug_set_chart_event_thresholds 10015cd0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014d40       _sf_debug_set_chart_data_compiled_props 10015d40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014fb0       _sf_debug_set_chart_data_props 10015fb0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015220       _sf_debug_check_fi_license 10016220 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000153b0       _sf_debug_symbol_scope_push 100163b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000153f0       _sf_debug_symbol_scope_push_eml 100163f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015430       _sf_debug_symbol_scope_pop 10016430 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015460       _sf_debug_symbol_scope_add_importable 10016460 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000154c0       _sf_debug_symbol_scope_add 100164c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015520       _sf_debug_symbol_scope_add_dyn_importable 10016520 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015590       _sf_debug_symbol_scope_add_dyn 10016590 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000155c0       _sf_debug_symbol_scope_add_eml_importable 100165c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000155f0       _sf_debug_symbol_scope_add_eml 100165f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015620       _sf_debug_symbol_scope_add_eml_dyn_importable 10016620 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015670       _sf_debug_symbol_scope_add_eml_dyn 10016670 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000156c0       _sf_debug_symbol_switch    100166c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000156e0       _sf_debug_symbol_scope_add_verbose 100166e0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015750       _sf_debug_set_machine_data_value_ptr 10016750 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015790       _sf_debug_set_instance_data_value_ptr 10016790 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000157f0       _sf_debug_unset_instance_data_value_ptr 100167f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015840       _sf_debug_set_chart_event_scope 10016840 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000158c0       _sf_debug_set_chart_transition_coverage_maps 100168c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015950       _sf_debug_set_chart_state_coverage_maps 10016950 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000159d0       _sf_debug_set_instance_transition_coverage_weights 100169d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015a40       _sf_debug_set_instance_state_coverage_weights 10016a40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015c40       _sf_debug_unload_machine   10016c40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015c90       _sf_debug_load_machine     10016c90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015d40       _sf_debug_set_active_instance_in_data_dictionary 10016d40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015ec0       _sf_debug_set_active_instance 10016ec0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015fc0       _sf_debug_chart_visiblity_change 10016fc0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016070       _sf_debug_select_chart     10017070 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016150       _sf_debug_set_instance_cv_ids 10017150 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016310       _sf_debug_select_charts    10017310 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016460       _sf_debug_initialized      10017460 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016470       _sf_debug_is_uninterruptible 10017470 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000164a0       _sf_debug_initialize_debugger_gui 100174a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016820       _sf_debug_resume           10017820 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016840       _sf_debug_go               10017840 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016850       _sf_debug_break            10017850 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016860       _sf_debug_step_over        10017860 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016870       _sf_debug_step_out         10017870 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016880       _sf_debug_set_disable_all_breakpoints 10017880 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016890       _sf_debug_disable_all_breakpoints_and_go 10017890 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000168a0       _sf_debug_break_on_chart_entry 100178a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000168b0       _sf_debug_break_on_event_broadcast 100178b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000168c0       _sf_debug_break_on_state_entry 100178c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000168d0       _sf_debug_break_between_times 100178d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016900       _sf_debug_browse_data      10017900 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016920       _sf_debug_watch_data       10017920 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016950       _sf_debug_assign_data      10017950 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016970       _sf_debug_whos             10017970 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016990       _sf_debug_get_consistency_info 10017990 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000169b0       _sf_debug_browse_trace     100179b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000169d0       _sf_debug_set_breakpoints  100179d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016a90       _sf_debug_set_eml_breakpoints 10017a90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016ba0       _sf_debug_set_script_breakpoints 10017ba0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016c20       _sf_debug_add_script_breakpoints 10017c20 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016c90       _sf_debug_clear_script_breakpoints 10017c90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016d00       _sf_debug_query_script_breakpoints 10017d00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016da0       _sf_debug_get_eml_script_id 10017da0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016df0       _sf_debug_set_watch        10017df0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00016f80       _sf_debug_get_instance_handle 10017f80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017000       _sf_debug_get_active_states 10018000 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017020       _sf_debug_get_animation    10018020 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017030       _sf_debug_set_animation    10018030 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017040       _sf_debug_animate          10018040 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017070       _sf_debug_cycle_detection_check 10018070 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017080       _sf_debug_data_range_check 10018080 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017090       _sf_debug_transition_conflict_check 10018090 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000170a0       _sf_debug_state_consistency_check 100180a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000170b0       _sf_debug_data_range_check_enabled 100180b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000170c0       _sf_debug_transition_conflict_check_enabled 100180c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000170d0       _sf_debug_transition_conflict_check_begin 100180d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000170f0       _sf_debug_transition_conflict_check_end 100180f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017110       _sf_debug_stop_debugging   10018110 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017140       _sf_debug_is_cycle_detected 10018140 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017150       _sf_debug_is_array_bounds_detected 10018150 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017160       _sf_debug_get_state_vectors_data_size 10018160 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000171a0       _sf_debug_get_state_vectors_data 100181a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017270       _sf_debug_set_state_vectors_data 10018270 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000174a0       _sf_debug_get_script_index 100184a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000175d0       _sf_debug_add_script       100185d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017720       _cv_eval_point             10018720 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000177f0       _cv_eval_testobjective     100187f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000178a0       _sf_debug_cv_init_state    100188a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017930       _sf_debug_cv_init_chart    10018930 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000179b0       _sf_debug_cv_init_trans    100189b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017a40       _sf_debug_cv_init_testobjectives 10018a40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017b80       _cv_eml_init_script        10018b80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017c00       _cv_eml_init_fcn           10018c00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017c60       _cv_eml_init_testobjective 10018c60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017cd0       _cv_eml_init_saturation    10018cd0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017d40       _cv_eml_init_if            10018d40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017db0       _cv_eml_init_for           10018db0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017e20       _cv_eml_init_while         10018e20 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017e90       _cv_eml_init_mcdc          10018e90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017f10       _cv_eml_init_switch        10018f10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017f90       _cv_eml_eval               10018f90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018010       _sf_debug_bm_is_a_eml_breakpoint 10019010 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018140       _sf_debug_temporal_threshold 10019140 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018430       _sf_debug_transition_conflict_error 10019430 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000186d0       _sf_debug_state_inconsistency_error 100196d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000187c0       _sf_debug_check_for_state_inconsistency 100197c0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018800       _sf_debug_cycle_detecton_error 10019800 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018e10       _sf_debug_size_eq_check_1d 10019e10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018e30       _sf_debug_size_eq_check_nd 10019e30 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018f10       _sf_debug_dim_size_eq_check 10019f10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018f40       _sf_debug_dim_size_geq_check 10019f40 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018f70       _sf_debug_sub_assign_size_check_nd 10019f70 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019090       _sf_debug_matrix_matrix_index_check 1001a090 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000190d0       _sf_debug_vector_vector_index_check 1001a0d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019110       _sf_debug_for_loop_vector_check 1001a110 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019170       _sf_debug_runtime_error_msgid 1001a170 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019200       _sf_debug_data_array_bounds_error_check 1001a200 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019260       _sf_debug_eml_data_array_bounds_error_check 1001a260 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019550       _sf_debug_integer_check    1001a550 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000195d0       _sf_debug_not_nan_check    1001a5d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019620       _sf_debug_non_negative_check 1001a620 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019680       _sf_debug_overflow_detection 1001a680 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019ba0       _sf_debug_cast_to_real32_T 1001aba0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019c00       _sf_debug_cast_to_int8_T   1001ac00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019c80       _sf_debug_cast_to_uint8_T  1001ac80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019d10       _sf_debug_cast_to_int16_T  1001ad10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019d90       _sf_debug_cast_to_uint16_T 1001ad90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019e20       _sf_debug_cast_to_int32_T  1001ae20 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019e90       _sf_debug_cast_to_uint32_T 1001ae90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00019f20       _sf_debug_data_range_error 1001af20 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a1a0       _sf_debug_read_before_write_check 1001b1a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a500       _sf_debug_data_range_error_wrapper_min_max 1001b500 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a570       _sf_debug_data_range_error_wrapper_min 1001b570 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a5d0       _sf_debug_data_range_error_wrapper_max 1001b5d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a630       _sf_debug_data_range_wrapper 1001b630 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a680       _sf_debug_set_current_status_info 1001b680 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a9e0       _sf_debug_register_message_post_receive_info 1001b9e0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001ab70       _sf_debug_call             1001bb70 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001b360       _sf_debug_initialize_machine 1001c360 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001b610       _sf_debug_initialize_chart 1001c610 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001b900       _sf_debug_ensure_script    1001c900 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001b9b0       _cv_script_init_script     1001c9b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001ba10       _cv_script_init_fcn        1001ca10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001ba60       _cv_script_init_testobjective 1001ca60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bab0       _cv_script_init_if         1001cab0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bb00       _cv_script_init_for        1001cb00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bb50       _cv_script_init_while      1001cb50 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bba0       _cv_script_init_mcdc       1001cba0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bc00       _cv_script_init_switch     1001cc00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bc60       _cv_script_eval            1001cc60 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bcc0       _eml_debug_line_call       1001ccc0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bdc0       _sf_debug_terminate        1001cdc0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bef0       _sf_debug_set_script_cv_ids 1001cef0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001bff0       _sf_debug_api              1001cff0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d8a0       _sf_debug_sm_terminate     1001e8a0 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001da10       _sf_debug_reset_path_objects 1001ea10 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001da80       _sf_debug_sm_reset_object_selection_status 1001ea80 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001db20       _sf_debug_sm_reset_state_buffer 1001eb20 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001dbe0       _sf_debug_sm_store_state_buffer 1001ebe0 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001dc60       _sf_debug_sm_restore_state_buffer1 1001ec60 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001dcc0       _sf_debug_sm_restore_state_buffer2 1001ecc0 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001dd20       _sf_debug_sm_chart_active  1001ed20 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001dd70       _sf_debug_sm_select_active_objects 1001ed70 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001e130       _sf_debug_sm_is_chart_active 1001f130 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001e170       _sf_debug_sm_is_state_active 1001f170 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001e320       _sf_debug_sm_get_active_states 1001f320 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001e750       _sf_debug_sm_initialize_instance 1001f750 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001e960       _sf_debug_sm_change_object_selection_status 1001f960 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:0001eb50       _cv_create_interface       1001fb50 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001ee60       _cv_init_trans             1001fe60 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001eeb0       _cv_init_testobjective     1001feb0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001ef00       _cv_init_state             1001ff00 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001ef60       _cv_init_chart             1001ff60 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001efb0       _cv_dec_update_call        1001ffb0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001eff0       _cv_cond_update_call       1001fff0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f030       _cv_testobjective_update_call 10020030 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f070       _cv_sigrange_update        10020070 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f0c0       _cvsf_eml_eval             100200c0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f1b0       _cvsf_eml_init_script      100201b0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f220       _cvsf_eml_init_fcn         10020220 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f280       _cvsf_eml_init_testobjective 10020280 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f2e0       _cvsf_eml_init_saturation  100202e0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f340       _cvsf_eml_init_if          10020340 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f3a0       _cvsf_eml_init_for         100203a0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f400       _cvsf_eml_init_while       10020400 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f460       _cvsf_eml_init_mcdc        10020460 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f4d0       _cvsf_eml_init_switch      100204d0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f530       _cvsf_script_eval          10020530 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f620       _cvsf_script_init_script   10020620 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f690       _cvsf_script_init_fcn      10020690 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f6f0       _cvsf_script_init_testobjective 100206f0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f750       _cvsf_script_init_saturation 10020750 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f7b0       _cvsf_script_init_if       100207b0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f810       _cvsf_script_init_for      10020810 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f860       _cvsf_script_init_while    10020860 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f8b0       _cvsf_script_init_mcdc     100208b0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f920       _cvsf_script_init_switch   10020920 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f980       _cv_destroy_interface      10020980 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001f9a0       _cv_create_instance_objects 100209a0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001fce0       _cv_is_enabled             10020ce0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001fcf0       _sf_debug_cv_initialize_script 10020cf0 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:0001fe80       _sf_debug_cv_initialize_instance 10020e80 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:00020180       _sf_debug_cv_terminate_chart 10021180 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:00020270       _cv_call_trans_test        10021270 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:00020280       _cv_call_sub_cond_test     10021280 f   sfc_debugmsvc80:cv_sfinterface.obj
+ 0001:000202c0       _sf_debug_st_initialize_machine 100212c0 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020370       _sf_debug_st_initialize_instance 10021370 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020530       _sf_debug_st_terminate     10021530 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020690       _sf_debug_st_set_data_value_ptr_in_machine 10021690 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020700       _sf_debug_st_set_data_value_ptr_in_instance 10021700 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:000207b0       _sf_debug_st_unset_data_value_ptr_in_machine 100217b0 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020810       _sf_debug_st_unset_data_value_ptr_in_instance 10021810 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020b20       _sf_debug_mx_value         10021b20 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020b70       _sf_debug_mx_packed_vector 10021b70 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020c10       _sf_debug_mx_uint_vector   10021c10 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020c90       _sf_debug_st_get_double_value_from_void_ptr_vector 10021c90 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00021490       _sf_debug_st_browse_data   10022490 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00021b60       _sf_debug_hm_initialize_instance 10022b60 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022010       _sf_debug_hm_get_object_id 10023010 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022a30       _sf_debug_hm_update_chart_visibility 10023a30 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:000239f0       _sf_debug_object_is_eml_function 100249f0 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00023a50       _sf_debug_hm_initialize_ids_in_machine 10024a50 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00023ba0       _sf_debug_hm_initialize_ids_in_chart 10024ba0 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00023c90       _sf_debug_hm_initialize_chart 10024c90 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00024330       _sf_debug_hm_terminate     10025330 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00024390       _sf_debug_hm_initialize_machine 10025390 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00024a50       _sf_debug_ss_initialize    10025a50 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024a70       _sf_debug_ss_terminate     10025a70 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024af0       _sf_debug_ss_push_symbol_scope 10025af0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024bb0       _sf_debug_ss_push_symbol_scope_eml 10025bb0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024c00       _sf_debug_ss_pop_symbol_scope 10025c00 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024ca0       _sf_debug_ss_add_symbol    10025ca0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024d90       _sf_debug_ss_add_symbol_eml 10025d90 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000256a0       _sf_debug_ss_set_data_value 100266a0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000259f0       _getInstanceNumber         100269f0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025ac0       _sf_debug_ss_watch_data    10026ac0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025bb0       _sf_debug_ss_assign_data   10026bb0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00026450       _get_data_entry_name       10027450 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000264a0       _sf_debug_ss_whos          100274a0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00026950       _sf_debug_cc_initialize_chart 10027950 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00027320       _sf_debug_cc_initialize_instance 10028320 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00027f80       _sf_debug_cc_terminate     10028f80 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028050       _sf_debug_cc_set_transition_maps 10029050 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028150       _sf_debug_cc_set_state_maps 10029150 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028220       _sf_debug_cc_set_transition_weights 10029220 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028460       _sf_debug_cc_set_state_weights 10029460 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:000286a0       _sf_debug_cc_mark_transition_guard 100296a0 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028720       _sf_debug_cc_mark_transition_trigger 10029720 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:000287a0       _sf_debug_cc_mark_transition_decision 100297a0 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028800       _sf_debug_cc_mark_transition_condition_action 10029800 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028850       _sf_debug_cc_mark_transition_transition_action 10029850 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:000288a0       _sf_debug_cc_mark_state_entry 100298a0 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:000288f0       _sf_debug_cc_mark_state_during 100298f0 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028940       _sf_debug_cc_mark_state_exit 10029940 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028990       _sf_debug_bm_clear_script_breakpoints 10029990 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:000289d0       _sf_debug_bm_set_script_breakpoint 100299d0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00028a40       _sf_debug_bm_clear_single_script_breakpoint 10029a40 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00028ab0       _sf_debug_bm_query_script_breakpoint 10029ab0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00028b00       _sf_debug_bm_initialize_scripts 10029b00 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:000290a0       _sf_debug_bm_terminate     1002a0a0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00029360       _sf_debug_bm_remove_all_breakpoints_in_machine 1002a360 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:000293b0       _sf_debug_bm_remove_all_breakpoints_in_chart 1002a3b0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:000294e0       _sf_debug_bm_initialize_global_breakpoints 1002a4e0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00029690       _sf_debug_bm_set_breakpoint 1002a690 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00029bf0       _sf_debug_bm_set_eml_breakpoint 1002abf0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00029c70       _sf_debug_bm_initialize_machine_breakpoint_map 1002ac70 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002a010       _sf_debug_bm_is_a_breakpoint 1002b010 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002a500       _sf_debug_bm_get_all_breakpoints_in_machine 1002b500 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002a7a0       _sf_debug_bm_get_all_breakpoints_in_chart 1002b7a0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002b1d0       _sf_debug_bm_initialize_machine 1002c1d0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002b270       _sf_debug_bm_initialize_chart 1002c270 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002b600       _sf_debug_sc_terminate     1002c600 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002b880       _sf_debug_sc_is_chart_consistent 1002c880 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002ba60       _sf_debug_sc_get_consistency_error_info 1002ca60 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002bdc0       _sf_debug_tm_terminate     1002cdc0 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002be60       _sf_debug_tm_push_chart_instance 1002ce60 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002bf90       _sf_debug_tm_pop_chart_instance 1002cf90 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002bff0       _sf_debug_tm_push_trace_node 1002cff0 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c100       _sf_debug_tm_pop_trace_node 1002d100 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c180       _sf_debug_tm_get_current_global_trace_index 1002d180 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c1a0       _sf_debug_tm_get_current_local_trace_index 1002d1a0 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c1d0       _sf_debug_tm_set_cycle_detected_flag 1002d1d0 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c220       _sf_debug_tm_set_cycle_started_flag 1002d220 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c270       _sf_debug_tm_get_chart_number_from_stack 1002d270 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c410       _sf_debug_tm_browse_trace  1002d410 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c680       _sf_debug_cd_initialize_instance 1002d680 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002c8b0       _sf_debug_cd_mark_processed_transition_in_instance 1002d8b0 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002c930       _sf_debug_cd_checksum_push 1002d930 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002cc30       _sf_debug_cd_checksum_pop  1002dc30 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002cc90       _sf_debug_cd_turn_off_cycle_detection 1002dc90 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002cce0       _sf_debug_cd_terminate     1002dce0 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002ceb0       _md5_initialize_state      1002deb0 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002d740       _md5_update_state          1002e740 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002d760       _md5_get_hash              1002e760 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002d780       _md5_get_hash_for_a_single_string 1002e780 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002d7ea       _mxGetPr                   1002e7ea f   libmx:libmx.dll
+ 0001:0002d7f0       _mxCreateDoubleScalar      1002e7f0 f   libmx:libmx.dll
+ 0001:0002d7f6       _mxCreateDoubleMatrix_730  1002e7f6 f   libmx:libmx.dll
+ 0001:0002d7fc       _mxSetField_730            1002e7fc f   libmx:libmx.dll
+ 0001:0002d802       _mxCreateString            1002e802 f   libmx:libmx.dll
+ 0001:0002d808       _mxCreateStructMatrix_730  1002e808 f   libmx:libmx.dll
+ 0001:0002d80e       _mxDestroyArray            1002e80e f   libmx:libmx.dll
+ 0001:0002d814       _mxDuplicateArray          1002e814 f   libmx:libmx.dll
+ 0001:0002d81a       _mxGetString_730           1002e81a f   libmx:libmx.dll
+ 0001:0002d820       _mxIsChar                  1002e820 f   libmx:libmx.dll
+ 0001:0002d826       _mxGetClassID              1002e826 f   libmx:libmx.dll
+ 0001:0002d82c       _mxIsNumeric               1002e82c f   libmx:libmx.dll
+ 0001:0002d832       _mxIsComplex               1002e832 f   libmx:libmx.dll
+ 0001:0002d838       _mxGetN                    1002e838 f   libmx:libmx.dll
+ 0001:0002d83e       _mxGetM                    1002e83e f   libmx:libmx.dll
+ 0001:0002d844       _mxCalloc                  1002e844 f   libmx:libmx.dll
+ 0001:0002d84a       _mxGetScalar               1002e84a f   libmx:libmx.dll
+ 0001:0002d850       _mxIsLogical               1002e850 f   libmx:libmx.dll
+ 0001:0002d856       _mxCreateDoubleMatrix_700  1002e856 f   libmx:libmx.dll
+ 0001:0002d85c       _mxFree                    1002e85c f   libmx:libmx.dll
+ 0001:0002d862       _mxArrayToString           1002e862 f   libmx:libmx.dll
+ 0001:0002d868       _mxCreateCellMatrix_700    1002e868 f   libmx:libmx.dll
+ 0001:0002d86e       _mxSetCell_700             1002e86e f   libmx:libmx.dll
+ 0001:0002d874       _mxGetCell_700             1002e874 f   libmx:libmx.dll
+ 0001:0002d87a       _mxGetClassName            1002e87a f   libmx:libmx.dll
+ 0001:0002d880       _mxSetField_700            1002e880 f   libmx:libmx.dll
+ 0001:0002d886       _mxAddField                1002e886 f   libmx:libmx.dll
+ 0001:0002d88c       _mxGetField_700            1002e88c f   libmx:libmx.dll
+ 0001:0002d892       _mxGetNumberOfElements     1002e892 f   libmx:libmx.dll
+ 0001:0002d898       _mxIsStruct                1002e898 f   libmx:libmx.dll
+ 0001:0002d89e       _mxIsA                     1002e89e f   libmx:libmx.dll
+ 0001:0002d8a4       _mxIsClass                 1002e8a4 f   libmx:libmx.dll
+ 0001:0002d8aa       _mxGetLogicals             1002e8aa f   libmx:libmx.dll
+ 0001:0002d8b0       _mxIsSparse                1002e8b0 f   libmx:libmx.dll
+ 0001:0002d8b6       _mxSetFieldByNumber_700    1002e8b6 f   libmx:libmx.dll
+ 0001:0002d8bc       _mxGetFieldByNumber_700    1002e8bc f   libmx:libmx.dll
+ 0001:0002d8c2       _mxGetFieldNameByNumber    1002e8c2 f   libmx:libmx.dll
+ 0001:0002d8c8       _mxGetNumberOfFields       1002e8c8 f   libmx:libmx.dll
+ 0001:0002d8ce       _mxCreateStructMatrix_700  1002e8ce f   libmx:libmx.dll
+ 0001:0002d8d4       _mxGetFieldNumber          1002e8d4 f   libmx:libmx.dll
+ 0001:0002d8da       _mxIsNaN                   1002e8da f   libmx:libmx.dll
+ 0001:0002d8e0       _mxIsEmpty                 1002e8e0 f   libmx:libmx.dll
+ 0001:0002d8e6       _mxGetData                 1002e8e6 f   libmx:libmx.dll
+ 0001:0002d8ec       _mxGetImagData             1002e8ec f   libmx:libmx.dll
+ 0001:0002d8f2       _mxArrayClassIDName        1002e8f2 f   libmx:libmx.dll
+ 0001:0002d8f8       _mxCreateNumericMatrix_700 1002e8f8 f   libmx:libmx.dll
+ 0001:0002d8fe       _mxCreateStructArray_700   1002e8fe f   libmx:libmx.dll
+ 0001:0002d904       _mxCalcSingleSubscript_700 1002e904 f   libmx:libmx.dll
+ 0001:0002d90a       _mxGetDimensions_700       1002e90a f   libmx:libmx.dll
+ 0001:0002d910       _mxGetNumberOfDimensions_700 1002e910 f   libmx:libmx.dll
+ 0001:0002d916       _mxCreateNumericArray_700  1002e916 f   libmx:libmx.dll
+ 0001:0002d91c       _mxGetElementSize          1002e91c f   libmx:libmx.dll
+ 0001:0002d922       _mxCreateStringFromNChars_700 1002e922 f   libmx:libmx.dll
+ 0001:0002d928       _mxGetString_700           1002e928 f   libmx:libmx.dll
+ 0001:0002d92e       _mxIsLogicalScalarTrue     1002e92e f   libmx:libmx.dll
+ 0001:0002d934       _mxCreateLogicalScalar     1002e934 f   libmx:libmx.dll
+ 0001:0002d93a       _mexUnlock                 1002e93a f   libmex:libmex.dll
+ 0001:0002d940       _mexIsLocked               1002e940 f   libmex:libmex.dll
+ 0001:0002d946       _mexWarnMsgTxt             1002e946 f   libmex:libmex.dll
+ 0001:0002d94c       _mexCallMATLAB             1002e94c f   libmex:libmex.dll
+ 0001:0002d952       _mexErrMsgTxt              1002e952 f   libmex:libmex.dll
+ 0001:0002d958       _mexMakeArrayPersistent    1002e958 f   libmex:libmex.dll
+ 0001:0002d95e       _mexSetTrapFlag            1002e95e f   libmex:libmex.dll
+ 0001:0002d964       _mexPutVariable            1002e964 f   libmex:libmex.dll
+ 0001:0002d96a       _mexGetVariable            1002e96a f   libmex:libmex.dll
+ 0001:0002d970       _mexLock                   1002e970 f   libmex:libmex.dll
+ 0001:0002d976       _mexMakeMemoryPersistent   1002e976 f   libmex:libmex.dll
+ 0001:0002d97c       _mexFunctionName           1002e97c f   libmex:libmex.dll
+ 0001:0002d982       _ssRegisterDataTypeFxpFSlopeFixExpBias 1002e982 f   libfixedpoint:libfixedpoint.dll
+ 0001:0002d988       _utVSNprintf               1002e988 f   libut:libut.dll
+ 0001:0002d98e       _utCPUtime                 1002e98e f   libut:libut.dll
+ 0001:0002d994       _utFree                    1002e994 f   libut:libut.dll
+ 0001:0002d99a       _utMalloc                  1002e99a f   libut:libut.dll
+ 0001:0002d9a0       _muDoubleScalarSin         1002e9a0 f   libmwmathutil:libmwmathutil.dll
+ 0001:0002d9a6       _muDoubleScalarCos         1002e9a6 f   libmwmathutil:libmwmathutil.dll
+ 0001:0002d9ac       _muDoubleScalarPower       1002e9ac f   libmwmathutil:libmwmathutil.dll
+ 0001:0002d9b2       _emlrtCreateRootTLS        1002e9b2 f   libemlrt:libemlrt.dll
+ 0001:0002d9b8       _emlrtDestroyRootTLS       1002e9b8 f   libemlrt:libemlrt.dll
+ 0001:0002d9be       _emlrtCheckBuiltInR2012b   1002e9be f   libemlrt:libemlrt.dll
+ 0001:0002d9c4       _emlrtCheckVsBuiltInR2012b 1002e9c4 f   libemlrt:libemlrt.dll
+ 0001:0002d9ca       _emlrtCheckEnumR2012b      1002e9ca f   libemlrt:libemlrt.dll
+ 0001:0002d9d0       _emlrtCreateEnumR2012b     1002e9d0 f   libemlrt:libemlrt.dll
+ 0001:0002d9d6       _emlrtGetEnumElementR2009a 1002e9d6 f   libemlrt:libemlrt.dll
+ 0001:0002d9dc       _emlrtCreateReference      1002e9dc f   libemlrt:libemlrt.dll
+ 0001:0002d9e2       _emlrtImportVsFiArrayR2009b 1002e9e2 f   libemlrt:libemlrt.dll
+ 0001:0002d9e8       _emlrtNameCapturePostProcessR2012a 1002e9e8 f   libemlrt:libemlrt.dll
+ 0001:0002d9ee       _emlrtExtractMessageId     1002e9ee f   libemlrt:libemlrt.dll
+ 0001:0002d9f4       _emlrtTranslateMessageIDtoLCPstring 1002e9f4 f   libemlrt:libemlrt.dll
+ 0001:0002d9fa       _emlrtForLoopVectorIsValidR2011b 1002e9fa f   libemlrt:libemlrt.dll
+ 0001:0002da00       _emlrtTranslateUTF16MessagetoLCPstring 1002ea00 f   libemlrt:libemlrt.dll
+ 0001:0002da06       _emlrtGetEnumUnderlyingArrayR2009a 1002ea06 f   libemlrt:libemlrt.dll
+ 0001:0002da0c       _emlrtIsEnumR2009a         1002ea0c f   libemlrt:libemlrt.dll
+ 0001:0002da12       _strlen                    1002ea12 f   MSVCRT:MSVCR100.dll
+ 0001:0002da18       @__security_check_cookie@4 1002ea18 f   MSVCRT:secchk.obj
+ 0001:0002da30       _memset                    1002ea30 f   MSVCRT:MSVCR100.dll
+ 0001:0002da36       _malloc                    1002ea36 f   MSVCRT:MSVCR100.dll
+ 0001:0002da3c       _free                      1002ea3c f   MSVCRT:MSVCR100.dll
+ 0001:0002da42       _strcmp                    1002ea42 f   MSVCRT:MSVCR100.dll
+ 0001:0002da48       _sprintf                   1002ea48 f   MSVCRT:MSVCR100.dll
+ 0001:0002da4e       _strcat                    1002ea4e f   MSVCRT:MSVCR100.dll
+ 0001:0002da60       __ftol2_sse                1002ea60 f   MSVCRT:ftol2.obj
+ 0001:0002da69       __ftol2_pentium4           1002ea69 f   MSVCRT:ftol2.obj
+ 0001:0002da7c       __ftol2_sse_excpt          1002ea7c f   MSVCRT:ftol2.obj
+ 0001:0002da96       __ftol2                    1002ea96 f   MSVCRT:ftol2.obj
+ 0001:0002db0c       _memcpy                    1002eb0c f   MSVCRT:MSVCR100.dll
+ 0001:0002db12       _NtCurrentTeb              1002eb12 f i MSVCRT:crtdll.obj
+ 0001:0002db67       __CRT_INIT@12              1002eb67 f   MSVCRT:crtdll.obj
+ 0001:0002de87       __DllMainCRTStartup@12     1002ee87 f   MSVCRT:crtdll.obj
+ 0001:0002deaa       _strncpy                   1002eeaa f   MSVCRT:MSVCR100.dll
+ 0001:0002deb0       __chkstk                   1002eeb0 f   MSVCRT:chkstk.obj
+ 0001:0002deb0       __alloca_probe             1002eeb0     MSVCRT:chkstk.obj
+ 0001:0002dedc       _longjmp                   1002eedc f   MSVCRT:MSVCR100.dll
+ 0001:0002dee2       _strncmp                   1002eee2 f   MSVCRT:MSVCR100.dll
+ 0001:0002dee8       _ceil                      1002eee8 f   MSVCRT:MSVCR100.dll
+ 0001:0002deee       _strrchr                   1002eeee f   MSVCRT:MSVCR100.dll
+ 0001:0002def4       __setjmp3                  1002eef4 f   MSVCRT:MSVCR100.dll
+ 0001:0002defa       _calloc                    1002eefa f   MSVCRT:MSVCR100.dll
+ 0001:0002df00       _realloc                   1002ef00 f   MSVCRT:MSVCR100.dll
+ 0001:0002df06       _ldexp                     1002ef06 f   MSVCRT:MSVCR100.dll
+ 0001:0002df0c       ___report_gsfailure        1002ef0c f   MSVCRT:gs_report.obj
+ 0001:0002e012       ___sse2_available_init     1002f012 f   MSVCRT:cpu_disp.obj
+ 0001:0002e022       ___clean_type_info_names   1002f022 f   MSVCRT:tncleanup.obj
+ 0001:0002e02e       __onexit                   1002f02e f   MSVCRT:atonexit.obj
+ 0001:0002e0cf       _atexit                    1002f0cf f   MSVCRT:atonexit.obj
+ 0001:0002e0e6       __RTC_Initialize           1002f0e6 f   MSVCRT:_initsect_.obj
+ 0001:0002e10c       __RTC_Terminate            1002f10c f   MSVCRT:_initsect_.obj
+ 0001:0002e132       __malloc_crt               1002f132 f   MSVCRT:MSVCR100.dll
+ 0001:0002e138       __encoded_null             1002f138 f   MSVCRT:MSVCR100.dll
+ 0001:0002e140       __ValidateImageBase        1002f140 f   MSVCRT:pesect.obj
+ 0001:0002e180       __FindPESection            1002f180 f   MSVCRT:pesect.obj
+ 0001:0002e1d0       __IsNonwritableInCurrentImage 1002f1d0 f   MSVCRT:pesect.obj
+ 0001:0002e28c       __initterm                 1002f28c f   MSVCRT:MSVCR100.dll
+ 0001:0002e292       __initterm_e               1002f292 f   MSVCRT:MSVCR100.dll
+ 0001:0002e298       __amsg_exit                1002f298 f   MSVCRT:MSVCR100.dll
+ 0001:0002e29e       ___CppXcptFilter           1002f29e f   MSVCRT:MSVCR100.dll
+ 0001:0002e2a4       _DllMain@12                1002f2a4 f   MSVCRT:dllmain.obj
+ 0001:0002e2d0       __SEH_prolog4              1002f2d0 f   MSVCRT:sehprolg4.obj
+ 0001:0002e315       __SEH_epilog4              1002f315 f   MSVCRT:sehprolg4.obj
+ 0001:0002e329       __except_handler4          1002f329 f   MSVCRT:chandler4gs.obj
+ 0001:0002e34e       ___security_init_cookie    1002f34e f   MSVCRT:gs_support.obj
+ 0001:0002e3ea       __crt_debugger_hook        1002f3ea f   MSVCRT:MSVCR100.dll
+ 0001:0002e3f0       ___clean_type_info_names_internal 1002f3f0 f   MSVCRT:MSVCR100.dll
+ 0001:0002e3f6       __unlock                   1002f3f6 f   MSVCRT:MSVCR100.dll
+ 0001:0002e3fc       ___dllonexit               1002f3fc f   MSVCRT:MSVCR100.dll
+ 0001:0002e402       __lock                     1002f402 f   MSVCRT:MSVCR100.dll
+ 0001:0002e408       __except_handler4_common   1002f408 f   MSVCRT:MSVCR100.dll
+ 0001:0002e40e       _EncodePointer@4           1002f40e f   kernel32:KERNEL32.dll
+ 0001:0002e414       _DecodePointer@4           1002f414 f   kernel32:KERNEL32.dll
+ 0001:0002e41a       _InterlockedExchange@8     1002f41a f   kernel32:KERNEL32.dll
+ 0001:0002e420       _Sleep@4                   1002f420 f   kernel32:KERNEL32.dll
+ 0001:0002e426       _InterlockedCompareExchange@12 1002f426 f   kernel32:KERNEL32.dll
+ 0001:0002e42c       _TerminateProcess@8        1002f42c f   kernel32:KERNEL32.dll
+ 0001:0002e432       _GetCurrentProcess@0       1002f432 f   kernel32:KERNEL32.dll
+ 0001:0002e438       _UnhandledExceptionFilter@4 1002f438 f   kernel32:KERNEL32.dll
+ 0001:0002e43e       _SetUnhandledExceptionFilter@4 1002f43e f   kernel32:KERNEL32.dll
+ 0001:0002e444       _IsDebuggerPresent@0       1002f444 f   kernel32:KERNEL32.dll
+ 0001:0002e44a       _IsProcessorFeaturePresent@4 1002f44a f   kernel32:KERNEL32.dll
+ 0001:0002e450       _DisableThreadLibraryCalls@4 1002f450 f   kernel32:KERNEL32.dll
+ 0001:0002e456       _QueryPerformanceCounter@4 1002f456 f   kernel32:KERNEL32.dll
+ 0001:0002e45c       _GetTickCount@0            1002f45c f   kernel32:KERNEL32.dll
+ 0001:0002e462       _GetCurrentThreadId@0      1002f462 f   kernel32:KERNEL32.dll
+ 0001:0002e468       _GetCurrentProcessId@0     1002f468 f   kernel32:KERNEL32.dll
+ 0001:0002e46e       _GetSystemTimeAsFileTime@4 1002f46e f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__DisableThreadLibraryCalls@4 10030000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__IsProcessorFeaturePresent@4 10030004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__IsDebuggerPresent@0 10030008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__SetUnhandledExceptionFilter@4 1003000c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__UnhandledExceptionFilter@4 10030010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetCurrentProcess@0 10030014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__TerminateProcess@8  10030018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__InterlockedCompareExchange@12 1003001c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__Sleep@4             10030020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__InterlockedExchange@8 10030024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__DecodePointer@4     10030028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__EncodePointer@4     1003002c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetTickCount@0      10030030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetCurrentThreadId@0 10030034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetCurrentProcessId@0 10030038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetSystemTimeAsFileTime@4 1003003c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__QueryPerformanceCounter@4 10030040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 10030044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__realloc             10030048     MSVCRT:MSVCR100.dll
+ 0002:0000004c       __imp___except_handler4_common 1003004c     MSVCRT:MSVCR100.dll
+ 0002:00000050       __imp___onexit             10030050     MSVCRT:MSVCR100.dll
+ 0002:00000054       __imp___lock               10030054     MSVCRT:MSVCR100.dll
+ 0002:00000058       __imp____dllonexit         10030058     MSVCRT:MSVCR100.dll
+ 0002:0000005c       __imp___unlock             1003005c     MSVCRT:MSVCR100.dll
+ 0002:00000060       __imp____clean_type_info_names_internal 10030060     MSVCRT:MSVCR100.dll
+ 0002:00000064       __imp___crt_debugger_hook  10030064     MSVCRT:MSVCR100.dll
+ 0002:00000068       __imp____CppXcptFilter     10030068     MSVCRT:MSVCR100.dll
+ 0002:0000006c       __imp___amsg_exit          1003006c     MSVCRT:MSVCR100.dll
+ 0002:00000070       __imp___initterm_e         10030070     MSVCRT:MSVCR100.dll
+ 0002:00000074       __imp___initterm           10030074     MSVCRT:MSVCR100.dll
+ 0002:00000078       __imp___encoded_null       10030078     MSVCRT:MSVCR100.dll
+ 0002:0000007c       __imp___malloc_crt         1003007c     MSVCRT:MSVCR100.dll
+ 0002:00000080       __imp__ldexp               10030080     MSVCRT:MSVCR100.dll
+ 0002:00000084       __imp__strlen              10030084     MSVCRT:MSVCR100.dll
+ 0002:00000088       __imp__calloc              10030088     MSVCRT:MSVCR100.dll
+ 0002:0000008c       __imp___setjmp3            1003008c     MSVCRT:MSVCR100.dll
+ 0002:00000090       __imp__strrchr             10030090     MSVCRT:MSVCR100.dll
+ 0002:00000094       __imp__ceil                10030094     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__strncmp             10030098     MSVCRT:MSVCR100.dll
+ 0002:0000009c       __imp__longjmp             1003009c     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp__strncpy             100300a0     MSVCRT:MSVCR100.dll
+ 0002:000000a4       __imp__memcpy              100300a4     MSVCRT:MSVCR100.dll
+ 0002:000000a8       __imp__strcat              100300a8     MSVCRT:MSVCR100.dll
+ 0002:000000ac       __imp__sprintf             100300ac     MSVCRT:MSVCR100.dll
+ 0002:000000b0       __imp__strcmp              100300b0     MSVCRT:MSVCR100.dll
+ 0002:000000b4       __imp__free                100300b4     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp__malloc              100300b8     MSVCRT:MSVCR100.dll
+ 0002:000000bc       __imp__memset              100300bc     MSVCRT:MSVCR100.dll
+ 0002:000000c0       \177MSVCR100_NULL_THUNK_DATA 100300c0     MSVCRT:MSVCR100.dll
+ 0002:000000c4       __imp__emlrtIsEnumR2009a   100300c4     libemlrt:libemlrt.dll
+ 0002:000000c8       __imp__emlrtCheckVsBuiltInR2012b 100300c8     libemlrt:libemlrt.dll
+ 0002:000000cc       __imp__emlrtGetEnumUnderlyingArrayR2009a 100300cc     libemlrt:libemlrt.dll
+ 0002:000000d0       __imp__emlrtTranslateUTF16MessagetoLCPstring 100300d0     libemlrt:libemlrt.dll
+ 0002:000000d4       __imp__emlrtForLoopVectorIsValidR2011b 100300d4     libemlrt:libemlrt.dll
+ 0002:000000d8       __imp__emlrtTranslateMessageIDtoLCPstring 100300d8     libemlrt:libemlrt.dll
+ 0002:000000dc       __imp__emlrtExtractMessageId 100300dc     libemlrt:libemlrt.dll
+ 0002:000000e0       __imp__emlrtCheckBuiltInR2012b 100300e0     libemlrt:libemlrt.dll
+ 0002:000000e4       __imp__emlrtDestroyRootTLS 100300e4     libemlrt:libemlrt.dll
+ 0002:000000e8       __imp__emlrtCreateRootTLS  100300e8     libemlrt:libemlrt.dll
+ 0002:000000ec       __imp__emlrtCheckEnumR2012b 100300ec     libemlrt:libemlrt.dll
+ 0002:000000f0       __imp__emlrtCreateEnumR2012b 100300f0     libemlrt:libemlrt.dll
+ 0002:000000f4       __imp__emlrtGetEnumElementR2009a 100300f4     libemlrt:libemlrt.dll
+ 0002:000000f8       __imp__emlrtCreateReference 100300f8     libemlrt:libemlrt.dll
+ 0002:000000fc       __imp__emlrtImportVsFiArrayR2009b 100300fc     libemlrt:libemlrt.dll
+ 0002:00000100       __imp__emlrtNameCapturePostProcessR2012a 10030100     libemlrt:libemlrt.dll
+ 0002:00000104       \177libemlrt_NULL_THUNK_DATA 10030104     libemlrt:libemlrt.dll
+ 0002:00000108       __imp__ssRegisterDataTypeFxpFSlopeFixExpBias 10030108     libfixedpoint:libfixedpoint.dll
+ 0002:0000010c       \177libfixedpoint_NULL_THUNK_DATA 1003010c     libfixedpoint:libfixedpoint.dll
+ 0002:00000110       __imp__mexFunctionName     10030110     libmex:libmex.dll
+ 0002:00000114       __imp__mexMakeMemoryPersistent 10030114     libmex:libmex.dll
+ 0002:00000118       __imp__mexGetVariable      10030118     libmex:libmex.dll
+ 0002:0000011c       __imp__mexPutVariable      1003011c     libmex:libmex.dll
+ 0002:00000120       __imp__mexSetTrapFlag      10030120     libmex:libmex.dll
+ 0002:00000124       __imp__mexMakeArrayPersistent 10030124     libmex:libmex.dll
+ 0002:00000128       __imp__mexErrMsgTxt        10030128     libmex:libmex.dll
+ 0002:0000012c       __imp__mexCallMATLAB       1003012c     libmex:libmex.dll
+ 0002:00000130       __imp__mexUnlock           10030130     libmex:libmex.dll
+ 0002:00000134       __imp__mexIsLocked         10030134     libmex:libmex.dll
+ 0002:00000138       __imp__mexWarnMsgTxt       10030138     libmex:libmex.dll
+ 0002:0000013c       __imp__mexLock             1003013c     libmex:libmex.dll
+ 0002:00000140       \177libmex_NULL_THUNK_DATA 10030140     libmex:libmex.dll
+ 0002:00000144       __imp__muDoubleScalarCos   10030144     libmwmathutil:libmwmathutil.dll
+ 0002:00000148       __imp__muDoubleScalarSin   10030148     libmwmathutil:libmwmathutil.dll
+ 0002:0000014c       __imp__muDoubleScalarPower 1003014c     libmwmathutil:libmwmathutil.dll
+ 0002:00000150       \177libmwmathutil_NULL_THUNK_DATA 10030150     libmwmathutil:libmwmathutil.dll
+ 0002:00000154       __imp__mxGetN              10030154     libmx:libmx.dll
+ 0002:00000158       __imp__mxGetM              10030158     libmx:libmx.dll
+ 0002:0000015c       __imp__mxCalloc            1003015c     libmx:libmx.dll
+ 0002:00000160       __imp__mxGetPr             10030160     libmx:libmx.dll
+ 0002:00000164       __imp__mxGetScalar         10030164     libmx:libmx.dll
+ 0002:00000168       __imp__mxIsLogical         10030168     libmx:libmx.dll
+ 0002:0000016c       __imp__mxCreateLogicalScalar 1003016c     libmx:libmx.dll
+ 0002:00000170       __imp__mxIsLogicalScalarTrue 10030170     libmx:libmx.dll
+ 0002:00000174       __imp__mxGetString_700     10030174     libmx:libmx.dll
+ 0002:00000178       __imp__mxCreateStringFromNChars_700 10030178     libmx:libmx.dll
+ 0002:0000017c       __imp__mxGetElementSize    1003017c     libmx:libmx.dll
+ 0002:00000180       __imp__mxCreateNumericArray_700 10030180     libmx:libmx.dll
+ 0002:00000184       __imp__mxGetNumberOfDimensions_700 10030184     libmx:libmx.dll
+ 0002:00000188       __imp__mxGetDimensions_700 10030188     libmx:libmx.dll
+ 0002:0000018c       __imp__mxCalcSingleSubscript_700 1003018c     libmx:libmx.dll
+ 0002:00000190       __imp__mxCreateStructArray_700 10030190     libmx:libmx.dll
+ 0002:00000194       __imp__mxCreateNumericMatrix_700 10030194     libmx:libmx.dll
+ 0002:00000198       __imp__mxArrayClassIDName  10030198     libmx:libmx.dll
+ 0002:0000019c       __imp__mxGetImagData       1003019c     libmx:libmx.dll
+ 0002:000001a0       __imp__mxGetData           100301a0     libmx:libmx.dll
+ 0002:000001a4       __imp__mxIsEmpty           100301a4     libmx:libmx.dll
+ 0002:000001a8       __imp__mxIsNaN             100301a8     libmx:libmx.dll
+ 0002:000001ac       __imp__mxGetFieldNumber    100301ac     libmx:libmx.dll
+ 0002:000001b0       __imp__mxCreateStructMatrix_700 100301b0     libmx:libmx.dll
+ 0002:000001b4       __imp__mxGetNumberOfFields 100301b4     libmx:libmx.dll
+ 0002:000001b8       __imp__mxGetFieldNameByNumber 100301b8     libmx:libmx.dll
+ 0002:000001bc       __imp__mxGetFieldByNumber_700 100301bc     libmx:libmx.dll
+ 0002:000001c0       __imp__mxSetFieldByNumber_700 100301c0     libmx:libmx.dll
+ 0002:000001c4       __imp__mxIsSparse          100301c4     libmx:libmx.dll
+ 0002:000001c8       __imp__mxGetLogicals       100301c8     libmx:libmx.dll
+ 0002:000001cc       __imp__mxIsClass           100301cc     libmx:libmx.dll
+ 0002:000001d0       __imp__mxIsA               100301d0     libmx:libmx.dll
+ 0002:000001d4       __imp__mxIsStruct          100301d4     libmx:libmx.dll
+ 0002:000001d8       __imp__mxGetNumberOfElements 100301d8     libmx:libmx.dll
+ 0002:000001dc       __imp__mxGetField_700      100301dc     libmx:libmx.dll
+ 0002:000001e0       __imp__mxAddField          100301e0     libmx:libmx.dll
+ 0002:000001e4       __imp__mxSetField_700      100301e4     libmx:libmx.dll
+ 0002:000001e8       __imp__mxGetClassName      100301e8     libmx:libmx.dll
+ 0002:000001ec       __imp__mxGetCell_700       100301ec     libmx:libmx.dll
+ 0002:000001f0       __imp__mxSetCell_700       100301f0     libmx:libmx.dll
+ 0002:000001f4       __imp__mxCreateCellMatrix_700 100301f4     libmx:libmx.dll
+ 0002:000001f8       __imp__mxArrayToString     100301f8     libmx:libmx.dll
+ 0002:000001fc       __imp__mxFree              100301fc     libmx:libmx.dll
+ 0002:00000200       __imp__mxIsComplex         10030200     libmx:libmx.dll
+ 0002:00000204       __imp__mxIsNumeric         10030204     libmx:libmx.dll
+ 0002:00000208       __imp__mxGetClassID        10030208     libmx:libmx.dll
+ 0002:0000020c       __imp__mxIsChar            1003020c     libmx:libmx.dll
+ 0002:00000210       __imp__mxGetString_730     10030210     libmx:libmx.dll
+ 0002:00000214       __imp__mxDuplicateArray    10030214     libmx:libmx.dll
+ 0002:00000218       __imp__mxDestroyArray      10030218     libmx:libmx.dll
+ 0002:0000021c       __imp__mxCreateStructMatrix_730 1003021c     libmx:libmx.dll
+ 0002:00000220       __imp__mxCreateString      10030220     libmx:libmx.dll
+ 0002:00000224       __imp__mxSetField_730      10030224     libmx:libmx.dll
+ 0002:00000228       __imp__mxCreateDoubleMatrix_730 10030228     libmx:libmx.dll
+ 0002:0000022c       __imp__mxCreateDoubleScalar 1003022c     libmx:libmx.dll
+ 0002:00000230       __imp__mxCreateDoubleMatrix_700 10030230     libmx:libmx.dll
+ 0002:00000234       \177libmx_NULL_THUNK_DATA  10030234     libmx:libmx.dll
+ 0002:00000238       __imp__utMalloc            10030238     libut:libut.dll
+ 0002:0000023c       __imp__utFree              1003023c     libut:libut.dll
+ 0002:00000240       __imp__utVSNprintf         10030240     libut:libut.dll
+ 0002:00000244       __imp__utCPUtime           10030244     libut:libut.dll
+ 0002:00000248       \177libut_NULL_THUNK_DATA  10030248     libut:libut.dll
+ 0002:0000024c       ___xc_a                    1003024c     MSVCRT:cinitexe.obj
+ 0002:00000250       ___xc_z                    10030250     MSVCRT:cinitexe.obj
+ 0002:00000254       ___xi_a                    10030254     MSVCRT:cinitexe.obj
+ 0002:00000260       ___xi_z                    10030260     MSVCRT:cinitexe.obj
+ 0002:00000268       __real@41eb0d043be00000    10030268     c1_Control_linear.obj
+ 0002:00000270       __real@41eb164cdac00000    10030270     c1_Control_linear.obj
+ 0002:00000278       __real@41d507270d800000    10030278     c1_Control_linear.obj
+ 0002:00000280       __real@41ea6d6b4a200000    10030280     c1_Control_linear.obj
+ 0002:00000288       __real@0000000000000000    10030288     c1_Control_linear.obj
+ 0002:00000290       __real@4024000000000000    10030290     c1_Control_linear.obj
+ 0002:00000298       __real@3ff0000000000000    10030298     c1_Control_linear.obj
+ 0002:000002a0       __real@4000000000000000    100302a0     c1_Control_linear.obj
+ 0002:000002a8       __real@401c000000000000    100302a8     c1_Control_linear.obj
+ 0002:000002b0       __real@41e567bf12a00000    100302b0     c2_Control_linear.obj
+ 0002:000002b8       __real@41e9df62bb000000    100302b8     c2_Control_linear.obj
+ 0002:000002c0       __real@41ee54e370400000    100302c0     c2_Control_linear.obj
+ 0002:000002c8       __real@41ed6718aa200000    100302c8     c2_Control_linear.obj
+ 0002:000002d0       __real@3fd6a4a8c154c986    100302d0     c2_Control_linear.obj
+ 0002:000002d8       __real@3ffad4fdf3b645a2    100302d8     c2_Control_linear.obj
+ 0002:000002e0       __real@3fde2eb1c432ca58    100302e0     c2_Control_linear.obj
+ 0002:000002e8       _DYNAMIC_DIMENSION_DEF     100302e8     Control_linear_sfun_registry.obj
+ 0002:000002f8       __ssBadLevel2InputAccessMsg 100302f8     Control_linear_sfun_registry.obj
+ 0002:00000480       __ssBadLevel2DirectFeedMsg 10030480     Control_linear_sfun_registry.obj
+ 0002:000005c0       __ssBadLevel2DirectFeedSolutionMsg 100305c0     Control_linear_sfun_registry.obj
+ 0002:00000630       __ssBadLevel2ZeroDirectFeedMsg 10030630     Control_linear_sfun_registry.obj
+ 0002:00000770       __ssBadLevel2ZeroDirectFeedMsg2 10030770     Control_linear_sfun_registry.obj
+ 0002:00000858       __real@bff0000000000000    10030858     Control_linear_sfun_registry.obj
+ 0002:00000860       __real@4153d65940000000    10030860     Control_linear_sfun_registry.obj
+ 0002:00000868       __real@41de67f902c00000    10030868     Control_linear_sfun.obj
+ 0002:00000870       __real@41ebc77b36a00000    10030870     Control_linear_sfun.obj
+ 0002:00000878       __real@41e3370e75a00000    10030878     Control_linear_sfun.obj
+ 0002:00000880       __real@41e033d0e9200000    10030880     Control_linear_sfun.obj
+ 0002:00000888       __real@41d02217ddc00000    10030888     Control_linear_sfun.obj
+ 0002:00000890       __real@41d7f86159400000    10030890     Control_linear_sfun.obj
+ 0002:00000898       __real@41be4ec42f000000    10030898     Control_linear_sfun.obj
+ 0002:000008a0       __real@41c7620126000000    100308a0     Control_linear_sfun.obj
+ 0002:000008a8       __real@41a1de994c000000    100308a8     Control_linear_sfun.obj
+ 0002:000008b0       __real@41d4494526c00000    100308b0     Control_linear_sfun.obj
+ 0002:000008b8       __real@41b5143ab4000000    100308b8     Control_linear_sfun.obj
+ 0002:000008c0       __real@41e7ed6c4ea00000    100308c0     Control_linear_sfun.obj
+ 0002:000008c8       __real@41ef7c9584e00000    100308c8     Control_linear_sfun.obj
+ 0002:000008d0       __real@41e76f37bd400000    100308d0     Control_linear_sfun.obj
+ 0002:000008d8       __real@41e6449ec8600000    100308d8     Control_linear_sfun.obj
+ 0002:000008e0       __real@41ddc0770fc00000    100308e0     Control_linear_sfun.obj
+ 0002:000008e8       ??_C@_00CNPNBAHC@?$AA@     100308e8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000008ec       ??_C@_05DGLCPCBN@?$CFsx?$CFd?$AA@ 100308ec     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000008f4       ??_C@_02DPKJAMEF@?$CFd?$AA@ 100308f4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000008f8       __real@41f0000000000000    100308f8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000900       ??_C@_0CC@DJOAOECF@Unknown?5MATLAB?5error?5encountered@ 10030900     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000924       ??_C@_0CJ@DAIIKGLI@?$CFs?5in?5?$CFs?5should?5never?5be?5called?5@ 10030924     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000950       ??_C@_0CE@ICKLNELB@Error?5calling?5MATLAB?5function?5?8?$CF@ 10030950     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000974       ??_C@_02DKCKIIND@?$CFs?$AA@ 10030974     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000978       ??_C@_07PHDIELCI@lasterr?$AA@ 10030978     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000980       ??_C@_09HKCBALOK@embedded?4?$AA@ 10030980     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000098c       ??_C@_06BNJCAIGJ@double?$AA@ 1003098c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000994       ??_C@_06EJFMBPJF@single?$AA@ 10030994     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000099c       ??_C@_06KKKLBFKN@uint64?$AA@ 1003099c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009a4       ??_C@_05DIFFJEPM@int64?$AA@ 100309a4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009ac       ??_C@_06PKDKHAMA@uint32?$AA@ 100309ac     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009b4       ??_C@_05GIMEPBJB@int32?$AA@ 100309b4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009bc       ??_C@_06JNNCGBKK@uint16?$AA@ 100309bc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009c4       ??_C@_05PCMOAPL@int16?$AA@ 100309c4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009cc       ??_C@_05BOGOCLFF@uint8?$AA@ 100309cc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009d4       ??_C@_04DCGBOBJJ@int8?$AA@ 100309d4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009dc       ??_C@_04KBDJOJNB@?$FL?$CFd?$FN?$AA@ 100309dc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000009e4       ??_C@_0CD@NFPEPNBJ@Cannot?5add?5field?5?$CFs?5to?5struct?5?$CFs@ 100309e4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000a08       ??_C@_0CF@PLDCCEBG@Cannot?5get?5field?5?$CFs?5from?5struct?5@ 10030a08     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000a30       ??_C@_0CO@MFJLJCHI@Struct?5array?5?8?$CFs?8?5does?5not?5have?5@ 10030a30     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000a60       ??_C@_0DF@IPGEGIDM@Object?5?8?$CFs?8?5is?5not?5a?5struct?3?5can@ 10030a60     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000a98       ??_C@_0BL@KEKJNNL@MATLAB?5expression?5?8?$CFs?8?5?$CFs?4?$AA@ 10030a98     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000ab8       ??_C@_0GH@JOEOEBFA@Size?5mismatch?5for?5?8?$CFs?8?5on?5dimens@ 10030ab8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000b20       ??_C@_04IAGNFIBA@size?$AA@ 10030b20     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000b28       ??_C@_0DN@DNLDLJNN@is?5not?5of?5the?5correct?5class?3?5exp@ 10030b28     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000b68       ??_C@_06POLMGHPK@isreal?$AA@ 10030b68     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000b70       ??_C@_0CC@EDDDCJDC@is?5not?5of?5the?5correct?5complexnes@ 10030b70     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000b94       ??_C@_0CB@POBCEEOP@is?5not?5of?5the?5correct?5sparseness@ 10030b94     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000bb8       ??_C@_0CC@JOFDGEBC@is?5not?5of?5the?5correct?5numerictyp@ 10030bb8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000bdc       ??_C@_07MIMONDDE@isequal?$AA@ 10030bdc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000be4       ??_C@_0M@NAPEIPJI@numerictype?$AA@ 10030be4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000bf0       ??_C@_0BN@IMIABIKK@is?5not?5of?5the?5correct?5fimath?$AA@ 10030bf0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000c10       ??_C@_06LJOKAFHF@fimath?$AA@ 10030c10     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000c18       ??_C@_0EP@IAFBLFNF@Stateflow?5Internal?5Error?3?5?6Error@ 10030c18     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000c68       ??_C@_02GFKODMMF@sf?$AA@   10030c68     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000c6c       ??_C@_08MJJBNONC@mxDecode?$AA@ 10030c6c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000c78       ??_C@_0GH@OOBFJADG@Simulation?5stopped?5due?5to?5out?5of@ 10030c78     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000ce0       ??_C@_0HC@JODLBNFO@Simulation?5stopped?5due?5to?5size?5m@ 10030ce0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000d58       ??_C@_0HC@PPOAOPGB@Simulation?5stopped?5due?5to?5size?5m@ 10030d58     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000dd0       ??_C@_0JM@OFMOAAGL@Simulation?5stopped?5due?5to?5size?5m@ 10030dd0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000e70       ??_C@_0KC@ODCGHMPH@Simulation?5stopped?5due?5to?5size?5o@ 10030e70     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000f18       ??_C@_0GO@BKNPNGBP@Subscripted?5assignment?5dimension@ 10030f18     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000f88       ??_C@_0DJ@MEDANBMA@Enable?5debugging?5to?5pinpoint?5the@ 10030f88     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000fc4       ??_C@_01CLKCMJKC@?5?$AA@   10030fc4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00000fc8       ??_C@_0BAO@DDKKHLGF@Matrix?$CImatrix?$CJ?5subscript?5turned?5@ 10030fc8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000010d8       ??_C@_0BAO@MGKOAKHL@Vector?$CIvector?$CJ?5subscript?5turned?5@ 100310d8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000011e8       ??_C@_0FA@KAHDAHHI@Cannot?5determine?5the?5exact?5numbe@ 100311e8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001238       ??_C@_0FC@HJKNPCCF@Negative?5value?5detected?4?5Enable?5@ 10031238     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000128c       ??_C@_0DK@JJKHINMK@Overflow?5detected?4?5Enable?5debugg@ 1003128c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000012c8       ??_C@_0EA@POIJMBCP@Divide?5by?5zero?5detected?4?5Enable?5@ 100312c8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001308       ??_C@_0EK@CFEMECLL@Nonconforming?5enum?5value?5detecte@ 10031308     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001358       ??_C@_0EE@BPGAOMO@Size?5mismatch?5for?5MATLAB?5express@ 10031358     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000013a0       ??_C@_0EJ@KLNPHOFG@Dimension?5of?5fixed?5size?5one?5?$CI1?$CJ?5@ 100313a0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000013ec       ??_C@_07JFPGMOK@fprintf?$AA@ 100313ec     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000013f8       ??_C@_0FE@EHCFPDEG@In?5MATLAB?5expression?5?8?$CFs?8?0?5field@ 100313f8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000144c       ??_C@_0DE@IJIFCHLH@In?5MATLAB?5expression?5?8?$CFs?8?0?5field@ 1003144c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001480       ??_C@_0FK@JKPMKGDE@MATLAB?5expression?5?8?$CFs?8?5does?5not?5@ 10031480     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000014dc       ??_C@_06PBJBIPGK@struct?$AA@ 100314dc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000014e4       ??_C@_0O@NFNPPCGN@isfimathlocal?$AA@ 100314e4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000014f4       ??_C@_0M@MLCGNPLD@embedded?4fi?$AA@ 100314f4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001500       ??_C@_0M@EGMNDJHO@?$CFs?5?$DN?5?$CF?415g?6?$AA@ 10031500     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000150c       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 1003150c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001510       ??_C@_0CL@LLBJDFID@failed?5sf_assertion?5in?5?$CFs?5at?5lin@ 10031510     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001540       ??_C@_0EJ@MIHEOKKA@?8?$CFs?8?3?5Array?5with?5number?5of?5dimen@ 10031540     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000158c       ??_C@_09JCLLFAHO@sfc_mex?4c?$AA@ 1003158c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001598       ??_C@_0O@FCFMOEOA@aNumDims?5?$DO?$DN?50?$AA@ 10031598     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000015a8       ??_C@_0CK@KDIMGCCA@?8?$CFs?8?3?5Sparse?5matrices?5are?5not?5su@ 100315a8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000015d4       ??_C@_0CI@KBLJAMNB@MATLAB?5expression?5?8?$CFs?8?5is?5not?5nu@ 100315d4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000015fc       ??_C@_0P@LCMMCGDM@aSrcMx?5?$CB?$DN?5NULL?$AA@ 100315fc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001610       ??_C@_0EI@HJNNACGI@Eval?5of?5MATLAB?5expression?5?8?$CFs?8?5i@ 10031610     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001658       ??_C@_0DM@BJICAGGK@Stateflow?5currently?5only?5support@ 10031658     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001694       ??_C@_05LAPONLG@false?$AA@ 10031694     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000169c       ??_C@_03LHCJEHON@nan?$AA@  1003169c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016a0       ??_C@_04BHIIPFEC@base?$AA@ 100316a0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016a8       ??_C@_06PLMANNP@evalin?$AA@ 100316a8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016b0       ??_C@_06GFECGKEO@caller?$AA@ 100316b0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016b8       ??_C@_0CM@LOMLNLMC@Invalid?5workspace?5type?5for?5sf_ma@ 100316b8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016e4       ??_C@_01GBGANLPD@0?$AA@    100316e4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016e8       ??_C@_06FJKEMHGD@global?$AA@ 100316e8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000016f0       ??_C@_0BH@HNIMIIFD@Unknown?5workspace?5type?$AA@ 100316f0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001708       ??_C@_08KHPDDPHG@getfield?$AA@ 10031708     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001714       ??_C@_05LPIJGKJ@Value?$AA@ 10031714     sfc_mexmsvc80:sfc_mex.obj
+ 0002:0000171c       ??_C@_0DA@IPMLFPJI@MATLAB?5expression?5?8?$CFs?8?5could?5not@ 1003171c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001750       ??_C@_0EB@HHPLBHBA@Parameter?5value?5out?5of?5bounds?4?5?$CF@ 10031750     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001794       ??_C@_0CB@DBMOOMDL@Unsupported?5class?5type?5?$CFs?5for?5?$CFs@ 10031794     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000017b8       ??_C@_0BI@OPNKAIOC@mxIsComplex?$CImxArrayPtr?$CJ?$AA@ 100317b8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000017d0       ??_C@_0GA@OFLPCMBM@Stateflow?5Runtime?5Warning?3?5Loss?5@ 100317d0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001830       __real@3810000000000000    10031830     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001838       __real@47efffffe0000000    10031838     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001840       __real@c060000000000000    10031840     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001848       __real@405fc00000000000    10031848     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001850       __real@406fe00000000000    10031850     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001858       __real@c0e0000000000000    10031858     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001860       __real@40dfffc000000000    10031860     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001868       __real@40efffe000000000    10031868     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001870       __real@c1e0000000000000    10031870     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001878       __real@41dfffffffc00000    10031878     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001880       __real@41efffffffe00000    10031880     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001888       ??_C@_0DO@JIJMNCAH@Class?5mismatch?5for?5variable?5?8?$CFs?8@ 10031888     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000018c8       ??_C@_03BBKEAIF@?$DP?$DP?$DP?$AA@ 100318c8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000018cc       ??_C@_0DE@HICLJLJO@Assignment?5of?5complex?5data?5to?5no@ 100318cc     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001900       ??_C@_0CF@NHFFCIEB@MATLAB?5function?5?8?$CFs?8?5returned?5NU@ 10031900     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001928       __real@4f800000            10031928     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001930       ??_C@_0GP@JPKMBIEI@Array?5bounds?5error?5in?5MATLAB?5exp@ 10031930     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000019a0       ??_C@_0P@FLJFOPHI@pIndex?$FLi?$FN?5?$DO?$DN?50?$AA@ 100319a0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000019b0       ??_C@_0DI@IGEABFHB@MATLAB?5expression?5?8?$CFs?8?5has?5?$CFd?5di@ 100319b0     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000019e8       ??_C@_0L@EFLJKPA@mxArrayPtr?$AA@ 100319e8     sfc_mexmsvc80:sfc_mex.obj
+ 0002:000019f4       ??_C@_0CK@FHKKOEPH@numDims?5?$DO?$DN?50?5?$CG?$CG?5numDims?5?$DM?$DN?5MAX_D@ 100319f4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001a20       ??_C@_0EM@MPIDLJBF@MATLAB?5expression?5?8?$CFs?8?5subscript@ 10031a20     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001a6c       ??_C@_04IGKKBJEE@?$DN?$CFg?$DL?$AA@ 10031a6c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001a74       ??_C@_01PKGAHCOL@?$CJ?$AA@ 10031a74     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001a78       ??_C@_03LEIBKMN@?0?$CFd?$AA@ 10031a78     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001a7c       ??_C@_03IECKINJK@?$CI?$CFd?$AA@ 10031a7c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001a80       ??_C@_0FB@HKJNNBFK@Stateflow?5ml?5type?5data?5?8?$CFs?8?5subs@ 10031a80     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001ad4       ??_C@_0CN@HPHHCDPK@Stateflow?5ml?5type?5data?5?8?$CFs?8?5is?5n@ 10031ad4     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001b04       ??_C@_0CG@JIOBALFE@Stateflow?5ml?5type?5data?5?8?$CFs?8?5is?5e@ 10031b04     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001b2c       ??_C@_0BD@GAHDCPBG@mxArrayPtr?5?$CB?$DN?5NULL?$AA@ 10031b2c     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001b40       ??_C@_0CF@HCINMAFF@result?5?$DN?5mxCreateDoubleScalar?$CIva@ 10031b40     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001b68       ??_C@_0BF@GAJKLFOH@fixpt_lower_mx_array?$AA@ 10031b68     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001b80       ??_C@_02FINOOIBE@Cg?$AA@   10031b80     sfc_mexmsvc80:sfc_mex.obj
+ 0002:00001b84       ??_C@_09GIFEIFFL@sfprivate?$AA@ 10031b84     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001b90       ??_C@_0CC@JDELABLI@get_machine_and_chart_file_numbe@ 10031b90     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001bb4       ??_C@_0BO@JCKKMPIB@get_sfun_block_specialization?$AA@ 10031bb4     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001bd8       ??_C@_0FP@OGBKADON@The?5chart?5name?5?4?4?4?$CFs?5is?5not?5pres@ 10031bd8     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001c38       ??_C@_0FM@KEMGDKHM@The?5chart?5name?5?$CFs?5is?5not?5present@ 10031c38     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001c94       ??_C@_0BD@NMFAPBEK@mdlInitializeSizes?$AA@ 10031c94     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001ca8       ??_C@_06EJFCAODB@sfc_sf?$AA@ 10031ca8     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001cb0       ??_C@_0BJ@PBIFPMMD@mdlInitializeSampleTimes?$AA@ 10031cb0     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001cd0       ??_C@_0FI@CPPGBPPK@Stateflow?5Internal?5Error?3?5?6Error@ 10031cd0     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001d28       ??_C@_0CN@GACCLMJH@preload_infomatman_for_rtw_optim@ 10031d28     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001d58       ??_C@_07CFINJGKH@Private?$AA@ 10031d58     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001d60       ??_C@_0GC@KEKNFKIJ@Stateflow?5Internal?5Error?3?5?6rtw_o@ 10031d60     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001dc8       ??_C@_0EK@MLFDFPLJ@Stateflow?5Internal?5Error?3?5?6Inter@ 10031dc8     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001e14       ??_C@_0BG@PNKGMGHF@rtw_optimization_info?$AA@ 10031e14     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001e2c       ??_C@_0BA@PHPHFLPF@chart_inlinable?$AA@ 10031e2c     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001e40       ??_C@_0MB@KGDKCEKF@Stateflow?5Internal?5Error?3?5?6Numbe@ 10031e40     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001f08       ??_C@_0GN@DNCJEGHD@Stateflow?5Internal?5Error?3?5?6Error@ 10031f08     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001f78       ??_C@_0CA@GOKFFBBO@outputEventsWithMultipleCallers?$AA@ 10031f78     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00001f98       ??_C@_0LH@NDHODBLK@Stateflow?5Internal?5Error?3?5?6Numbe@ 10031f98     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002050       ??_C@_0BB@GEEDBOGK@reusable_outputs?$AA@ 10032050     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002068       ??_C@_0II@FEBCOBGA@Stateflow?5Internal?5Error?3?5?6Numbe@ 10032068     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000020f0       ??_C@_0BG@HMMHPAKE@expressionable_inputs?$AA@ 100320f0     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002108       ??_C@_0BB@MBBOKNEL@listen_for_ctrlc?$AA@ 10032108     sfc_mexmsvc80:sfc_sf.obj
+ 0002:0000211c       ??_C@_03LOANPFAI@mex?$AA@  1003211c     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002120       ??_C@_07HLHKBCBI@sfdebug?$AA@ 10032120     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002128       ??_C@_07MFNNEMOJ@drawnow?$AA@ 10032128     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002130       __real@3fd3333333333333    10032130     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002138       ??_C@_0DG@OJBAPEMA@Internal?5Error?3?5paramsIndex?5?$DN?5?$CFd@ 10032138     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002170       ??_C@_0BAI@GPDPHGCD@Cannot?5broadcast?5function?5call?5o@ 10032170     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002278       ??_C@_0BBC@NGKHEJAF@Cannot?5enable?1disable?5function?5c@ 10032278     sfc_mexmsvc80:sfc_sf.obj
+ 0002:0000238c       ??_C@_08HDNBGBNP@bitWidth?$AA@ 1003238c     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002398       ??_C@_0BG@MDDFDLDC@resolveToSignalObject?$AA@ 10032398     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000023b0       ??_C@_07KHBFOCMF@varName?$AA@ 100323b0     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000023b8       ??_C@_09LHPHPAOE@isComplex?$AA@ 100323b8     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000023c4       ??_C@_08MLIGMCAH@typeSize?$AA@ 100323c4     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000023d0       ??_C@_0CM@OAMAJMIG@Failed?5to?5register?5type?5?8?$CFs?8?5wit@ 100323d0     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000023fc       ??_C@_0BI@OFLHAMB@vector_of_void_pointers?$AA@ 100323fc     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002414       ??_C@_04NBAGBPGE@bias?$AA@ 10032414     sfc_mexmsvc80:sfc_sf.obj
+ 0002:0000241c       ??_C@_08EGJNFMPO@exponent?$AA@ 1003241c     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002428       ??_C@_05LAHHKLJI@slope?$AA@ 10032428     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002430       ??_C@_0L@EMMELFNN@wordLength?$AA@ 10032430     sfc_mexmsvc80:sfc_sf.obj
+ 0002:0000243c       ??_C@_08EJEJGLGA@isSigned?$AA@ 1003243c     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002448       ??_C@_05LFJLPLPG@fixpt?$AA@ 10032448     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002450       ??_C@_07GOBOHMJA@boolean?$AA@ 10032450     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002458       ??_C@_04GPMDFGEJ@type?$AA@ 10032458     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002460       ??_C@_0O@EIPJLOAA@extModeUpload?$AA@ 10032460     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002470       ??_C@_03PLHFFLIH@ptr?$AA@  10032470     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002474       ??_C@_0BC@HMCIKMPA@requiredStackSize?$AA@ 10032474     sfc_mexmsvc80:sfc_sf.obj
+ 0002:00002488       ??_C@_0CB@OCGIMAKA@RegisterMachineParentedDataDwork@ 10032488     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000024ac       ??_C@_0BD@LFPAKDFC@machineDataVarInfo?$AA@ 100324ac     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000024c0       ??_C@_09GAJBGLOB@dworkInfo?$AA@ 100324c0     sfc_mexmsvc80:sfc_sf.obj
+ 0002:000024cc       _sf_uint_bits_log2         100324cc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000024ec       ??_C@_04GKMJMOBJ@disp?$AA@ 100324ec     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000024f4       ??_C@_0DJ@GEKCDEED@Runtime?5size?5mismatch?5for?5dimens@ 100324f4     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002530       ??_C@_0N@IHFJDIPG@load_machine?$AA@ 10032530     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002540       ??_C@_0P@NOFOFJMO@ScriptCacheGet?$AA@ 10032540     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002550       ??_C@_0P@HCIIHGKN@simulationTime?$AA@ 10032550     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002560       ??_C@_06MBJIKMHL@isSend?$AA@ 10032560     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002568       ??_C@_0BC@HKLNGIIJ@messagePortNumber?$AA@ 10032568     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000257c       ??_C@_07KGNNMFDL@chartId?$AA@ 1003257c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002584       ??_C@_0BD@LPIHANBP@State?5Entry?5Action?$AA@ 10032584     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002598       ??_C@_0BE@EDAKPKIF@State?5During?5Action?$AA@ 10032598     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000025ac       ??_C@_0BC@FKIGLKJE@State?5Exit?5Action?$AA@ 100325ac     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000025c0       ??_C@_04CGFJFPFD@none?$AA@ 100325c0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000025c8       ??_C@_0BC@EPJNNAPA@Transition?5Action?$AA@ 100325c8     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000025dc       ??_C@_0BB@ODEGBFLN@Condition?5Action?$AA@ 100325dc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000025f0       ??_C@_0BO@JIGLNAHF@Transition?5Guarding?5Condition?$AA@ 100325f0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002610       ??_C@_0BD@JMJALEKH@Transition?5Trigger?$AA@ 10032610     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002624       ??_C@_0DI@JGHJOLLJ@INTERNAL?5ERROR?4?5Failed?5assertion@ 10032624     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000265c       ??_C@_01EEMJAFIK@?6?$AA@   1003265c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002660       ??_C@_0P@HHNBJNJA@context_string?$AA@ 10032660     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002670       ??_C@_0BN@PMGOFJAJ@shouldAlwaysHonorBreakpoints?$AA@ 10032670     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002690       ??_C@_0DL@EPKGPGLC@?$CImachine?9?$DOdataCompInfo?4fixedPoin@ 10032690     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000026cc       ??_C@_0L@GJHMCDGO@sfcdebug?4c?$AA@ 100326cc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000026d8       ??_C@_0DE@CBCLKIAM@?$CImachine?9?$DOdataCompInfo?4isComplex@ 100326d8     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000270c       ??_C@_0DP@MDOJBFKE@?$CIinstance?9?$DOdataCompInfo?4fixedPoi@ 1003270c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000274c       ??_C@_0DM@KFHGIBMB@?$CIinstance?9?$DOdataCompInfo?4fixedPoi@ 1003274c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002788       ??_C@_0DF@IIPJPBAH@?$CIinstance?9?$DOdataCompInfo?4isComple@ 10032788     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000027c0       ??_C@_0DA@OMEPAHNH@?$CIchart?9?$DOdata?4outputDataFlags?$CJ?4le@ 100327c0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000027f0       ??_C@_0CP@JPBDBJBK@?$CIchart?9?$DOdata?4inputDataFlags?$CJ?4len@ 100327f0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002820       ??_C@_03KGJNKAJD@lic?$AA@  10032820     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002824       ??_C@_04PNMLDJAE@ense?$AA@ 10032824     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000282c       ??_C@_0L@ONMHLBPB@?$CFs?$CFs?$CFslbox?$AA@ 1003282c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002838       ??_C@_04CLOJJEIM@fixe?$AA@ 10032838     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002840       ??_C@_05CBHOIFCP@t_too?$AA@ 10032840     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002848       ??_C@_06MGFNEDEJ@d_poin?$AA@ 10032848     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002850       ??_C@_04HDOCAJNK@?$CFs?$CFs?$AA@ 10032850     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002858       ??_C@_04BJBBOLDM@chec?$AA@ 10032858     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002860       ??_C@_04KNBDLPKC@kout?$AA@ 10032860     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002868       ??_C@_0BA@FKECJMCE@active_instance?$AA@ 10032868     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002878       ??_C@_0DD@MJFCMKPO@transCnt?5?$DN?$DN?5instance?9?$DOcvToolIds?4@ 10032878     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000028ac       ??_C@_0CO@MONEMJEL@stateCnt?5?$DN?$DN?5instance?9?$DOcvToolIds?4@ 100328ac     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000028dc       ??_C@_0O@ELHBEDAD@init_debugger?$AA@ 100328dc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000028ec       ??_C@_0L@PKOFOKNN@break_here?$AA@ 100328ec     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000028f8       ??_C@_0BH@KBPHNGCH@script?4activeMachineId?$AA@ 100328f8     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002910       ??_C@_03KCHOJKKI@set?$AA@  10032910     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002914       ??_C@_0DD@PKMAPHBF@?$CImachine?9?$DOdata?4watchFlags?$CJ?4lengt@ 10032914     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002948       ??_C@_0FE@KLPHIMDI@?$CIchart?9?$DOdata?4watchFlags?$CJ?4length?$DO@ 10032948     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000299c       ??_C@_0BO@GFBPGEIL@bufferSizeGet?5?$DN?$DN?5totalSizeGet?$AA@ 1003299c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000029bc       ??_C@_0BO@BEEPOEDP@bufferSizeSet?5?$DN?$DN?5totalSizeSet?$AA@ 100329bc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000029dc       ??_C@_0BG@NNAKOPEK@get_script_line_count?$AA@ 100329dc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000029f4       ??_C@_0BJ@GADAHKGG@temporal_threshold_error?$AA@ 100329f4     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002a10       ??_C@_0BK@KABIOMCC@transition_conflict_error?$AA@ 10032a10     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002a2c       ??_C@_0BK@HLPANOPJ@state_inconsistency_error?$AA@ 10032a2c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002a48       ??_C@_0BA@PCEGODO@cycle_detection?$AA@ 10032a48     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002a58       ??_C@_0CP@HMOGACCG@Simulation?5stopped?5due?5to?5out?5of@ 10032a58     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002a88       ??_C@_0BD@LFFFHIJG@array_bounds_error?$AA@ 10032a88     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002a9c       ??_C@_0O@IENBAMNA@runtime_error?$AA@ 10032a9c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002aac       ??_C@_0CC@EDKHOOPE@Call?5to?5MATLAB?5function?5aborted?3@ 10032aac     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002ad0       ??_C@_0DJ@JBGHLJFL@Simulation?5stopped?5due?5to?5size?5m@ 10032ad0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002b0c       ??_C@_0DJ@EAKPCDBG@Simulation?5stopped?5due?5to?5size?5m@ 10032b0c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002b48       ??_C@_0GD@BJCLDBKO@Simulation?5stopped?5due?5to?5size?5m@ 10032b48     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002bb0       ??_C@_0GJ@OHCOIONE@Simulation?5stopped?5due?5to?5size?5o@ 10032bb0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002c1c       ??_C@_0DF@BOMHHCNB@Subscripted?5assignment?5dimension@ 10032c1c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002c58       ??_C@_0NG@BOPFGKBO@Matrix?$CImatrix?$CJ?5subscript?5turned?5@ 10032c58     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002d30       ??_C@_0HE@FPEPCMDA@Matrix?$CImatrix?$CJ?5subscript?5turned?5@ 10032d30     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002da8       ??_C@_0NG@MLJIHJIH@Vector?$CIvector?$CJ?5subscript?5turned?5@ 10032da8     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002e80       ??_C@_0HE@BHPDCNDF@Vector?$CIvector?$CJ?5subscript?5turned?5@ 10032e80     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002ef4       ??_C@_0BL@HKADOJK@Unknown?5runtime?5error?3?5?$CFs?4?$AA@ 10032ef4     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f10       ??_C@_0P@FIEIFKHH@dataName?$CB?$DNNULL?$AA@ 10032f10     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f20       ??_C@_0BC@JKFOPCCM@non_integer_error?$AA@ 10032f20     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f34       ??_C@_09MMCAMPEC@nan_error?$AA@ 10032f34     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f40       ??_C@_0P@KGNBONIG@negative_error?$AA@ 10032f40     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f50       ??_C@_0DA@OEGHOJFO@Simulation?5stopped?5due?5to?5divide@ 10032f50     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f80       ??_C@_0P@DAGNNBKM@overflow_error?$AA@ 10032f80     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002f90       ??_C@_0BF@IEPBJJM@divide_by_zero_error?$AA@ 10032f90     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002fa8       ??_C@_0BC@CNIFONOF@unsafe_enum_error?$AA@ 10032fa8     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002fbc       ??_C@_0BA@GLGJGIFO@data_loss_error?$AA@ 10032fbc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002fcc       ??_C@_0BB@LFNCDKMF@data_range_error?$AA@ 10032fcc     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00002fe0       ??_C@_0FA@OJFHKNAF@Simulation?5stopped?5because?5a?5dat@ 10032fe0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00003030       ??_C@_0BI@LLOJJCOG@read_before_write_error?$AA@ 10033030     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00003048       __real@4059000000000000    10033048     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00003050       ??_C@_0EL@LHLCBPON@objectType?$DN?$DNEVENT_OBJECT?5?$CG?$CG?5obje@ 10033050     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000309c       ??_C@_0CK@BGKNIJPH@Simulation?5stopped?5due?5to?5infini@ 1003309c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000030c8       ??_C@_0BC@OGHOEIO@draw_message_post?$AA@ 100330c8     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000030e0       ??_C@_0EC@EKMLJIIP@strlen?$CItargetName?$CJ?$DMsizeof?$CIdebugI@ 100330e0     sfc_debugmsvc80:sfcdebug.obj
+ 0002:00003128       ??_C@_0EE@LPPEFNLK@strlen?$CImachineName?$CJ?$DMsizeof?$CIdebug@ 10033128     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000316c       ??_C@_0BO@OEBODAF@charts?9?$DOlength?5?$DM?5charts?9?$DOsize?$AA@ 1003316c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000318c       ??_C@_0P@NDNBPAGO@charts?9?$DOsize?$DO0?$AA@ 1003318c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:0000319c       ??_C@_09DACGJFPO@terminate?$AA@ 1003319c     sfc_debugmsvc80:sfcdebug.obj
+ 0002:000031a8       ??_C@_0BH@BOIPOAMD@currentoptionalinteger?$AA@ 100331a8     sfc_debugmsvc80:sfc_api.obj
+ 0002:000031c0       ??_C@_0BI@KDFLIHKN@currentstatementcontext?$AA@ 100331c0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000031d8       ??_C@_0BF@CJJCNHOP@currentstatementinfo?$AA@ 100331d8     sfc_debugmsvc80:sfc_api.obj
+ 0002:000031f0       ??_C@_0BA@EEHAMBBL@currentcoverage?$AA@ 100331f0     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003200       ??_C@_0BD@CPIGBEHM@currentmachinename?$AA@ 10033200     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003214       ??_C@_0BF@MPNFKHIK@currentmachinenumber?$AA@ 10033214     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000322c       ??_C@_0BB@EAGFPGEG@currentmachineid?$AA@ 1003322c     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003240       ??_C@_0P@LDEJFJKJ@simulationtime?$AA@ 10033240     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003250       ??_C@_0P@CKMPNBM@currenttagtype?$AA@ 10033250     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003260       ??_C@_0BH@EMAALFDO@currentactiveeventtype?$AA@ 10033260     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003278       ??_C@_0BF@BIDFPCPF@currentactiveeventid?$AA@ 10033278     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003290       ??_C@_0BA@LAPNNELA@currentobjectid?$AA@ 10033290     sfc_debugmsvc80:sfc_api.obj
+ 0002:000032a0       ??_C@_0BB@LLJHHKEI@currenteventtype?$AA@ 100332a0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000032b4       ??_C@_0BC@BDADCDEL@currentobjecttype?$AA@ 100332b4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000032c8       ??_C@_0BH@HDHFFKCN@currentisminortimestep?$AA@ 100332c8     sfc_debugmsvc80:sfc_api.obj
+ 0002:000032e0       ??_C@_0BG@PKFJEKLL@currentinstancehandle?$AA@ 100332e0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000032f8       ??_C@_0BG@GJFHKFBJ@currentinstancenumber?$AA@ 100332f8     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003310       ??_C@_0BD@DKAMMHEE@currentchartnumber?$AA@ 10033310     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003324       ??_C@_0P@EANFOHCD@currentchartid?$AA@ 10033324     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003334       ??_C@_0CC@JILMFDHL@extract_message_post_receive_inf@ 10033334     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003358       ??_C@_06IMFOKBKF@assign?$AA@ 10033358     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003360       ??_C@_0BC@CMFMGKCG@set_script_cv_ids?$AA@ 10033360     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003374       ??_C@_0BE@ONNFKBAC@set_instance_cv_ids?$AA@ 10033374     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003388       ??_C@_0BE@CDIKCKCD@get_instance_handle?$AA@ 10033388     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000339c       ??_C@_0BE@GPEMFILK@break_between_times?$AA@ 1003339c     sfc_debugmsvc80:sfc_api.obj
+ 0002:000033b0       ??_C@_0O@KGONFDDG@active_states?$AA@ 100333b0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000033c0       ??_C@_0BC@LHALNGBC@state_consistency?$AA@ 100333c0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000033d4       ??_C@_0BE@JNDELHDH@transition_conflict?$AA@ 100333d4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000033e8       ??_C@_0L@ECJAFPAF@data_range?$AA@ 100333e8     sfc_debugmsvc80:sfc_api.obj
+ 0002:000033f4       ??_C@_0O@NAKDKJME@select_charts?$AA@ 100333f4     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003404       ??_C@_0N@KLDBDGD@select_chart?$AA@ 10033404     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003414       ??_C@_0O@NJPMKBAC@set_animation?$AA@ 10033414     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003424       ??_C@_09FLOFKLFE@set_watch?$AA@ 10033424     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003430       ??_C@_0O@ECMAEPOC@get_script_id?$AA@ 10033430     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003440       ??_C@_0BJ@KFGPCNG@query_script_breakpoints?$AA@ 10033440     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000345c       ??_C@_0BJ@CAAHLJNF@clear_script_breakpoints?$AA@ 1003345c     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003478       ??_C@_0BH@BAILBHDP@add_script_breakpoints?$AA@ 10033478     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003490       ??_C@_0BH@KAKDDELG@set_script_breakpoints?$AA@ 10033490     sfc_debugmsvc80:sfc_api.obj
+ 0002:000034a8       ??_C@_0BE@GAGDJPKA@set_eml_breakpoints?$AA@ 100334a8     sfc_debugmsvc80:sfc_api.obj
+ 0002:000034bc       ??_C@_0BA@NHOBHLLJ@set_breakpoints?$AA@ 100334bc     sfc_debugmsvc80:sfc_api.obj
+ 0002:000034cc       ??_C@_0BF@GOGOODJG@break_on_state_entry?$AA@ 100334cc     sfc_debugmsvc80:sfc_api.obj
+ 0002:000034e4       ??_C@_0BJ@FPOJDFBP@break_on_event_broadcast?$AA@ 100334e4     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003500       ??_C@_0BF@FJBBAFJ@break_on_chart_entry?$AA@ 10033500     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003518       ??_C@_0N@MHHEHLAI@browse_trace?$AA@ 10033518     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003528       ??_C@_0BB@JEAJMJMI@consistency_info?$AA@ 10033528     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000353c       ??_C@_04MLCEENPJ@whos?$AA@ 1003353c     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003544       ??_C@_0L@LNIDAIN@watch_data?$AA@ 10033544     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003550       ??_C@_0M@JEJMEFEG@browse_data?$AA@ 10033550     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000355c       ??_C@_03HNAFFKGA@get?$AA@  1003355c     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003560       ??_C@_05LBOHBHFK@close?$AA@ 10033560     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003568       ??_C@_0BM@ICDFOOIE@set_disable_all_breakpoints?$AA@ 10033568     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003584       ??_C@_0BP@IBIALPGH@disable_all_breakpoints_and_go?$AA@ 10033584     sfc_debugmsvc80:sfc_api.obj
+ 0002:000035a4       ??_C@_0BJ@BOMFHJBD@is_array_bounds_detected?$AA@ 100335a4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000035c0       ??_C@_0BC@LKOOEAAH@is_cycle_detected?$AA@ 100335c0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000035d4       ??_C@_0P@NIBPNIDJ@stop_debugging?$AA@ 100335d4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000035e4       ??_C@_05ELPHFHOI@break?$AA@ 100335e4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000035ec       ??_C@_06PLELHCEK@resume?$AA@ 100335ec     sfc_debugmsvc80:sfc_api.obj
+ 0002:000035f4       ??_C@_08OKABEMKO@step_out?$AA@ 100335f4     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003600       ??_C@_09CDNMPCHO@step_over?$AA@ 10033600     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000360c       ??_C@_02KPEDIMCA@go?$AA@   1003360c     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003610       ??_C@_0P@MMCMIGPN@debugger_alive?$AA@ 10033610     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003620       ??_C@_0N@GHFBLJDM@machine_load?$AA@ 10033620     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003630       ??_C@_0O@GIBFCMLF@chart_visible?$AA@ 10033630     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003848       ??_C@_05JEMLEKKA@found?$AA@ 10033848     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003850       ??_C@_09KFNMLIAN@sfc_api?4c?$AA@ 10033850     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000385c       ??_C@_0N@PFBMDOLG@sf_debug_api?$AA@ 1003385c     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000386c       ??_C@_07KEAHHHLK@nrhs?$DN?$DN3?$AA@ 1003386c     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003874       ??_C@_0BC@HOOMKBNL@mxIsChar?$CIprhs?$FL0?$FN?$CJ?$AA@ 10033874     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003888       ??_C@_0BF@NGLAGMHA@mxIsNumeric?$CIprhs?$FL0?$FN?$CJ?$AA@ 10033888     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038a0       ??_C@_07IEIELKNG@nrhs?$DO?$DN1?$AA@ 100338a0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038a8       ??_C@_07LNBMEGPL@nrhs?$DN?$DN2?$AA@ 100338a8     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038b0       ??_C@_0BD@DPNMCCEH@nrhs?$DN?$DN1?5?$HM?$HM?5nrhs?$DN?$DN3?$AA@ 100338b0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038c4       ??_C@_09FKOBHCEN@nrhs?5?$DN?$DN?52?$AA@ 100338c4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038d0       ??_C@_09EMKMAIDO@nrhs?5?$DM?$DN?51?$AA@ 100338d0     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038dc       ??_C@_07OLEGOBHN@nrhs?$DN?$DN4?$AA@ 100338dc     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038e4       ??_C@_07PCFNNADM@nrhs?$DN?$DN5?$AA@ 100338e4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038ec       ??_C@_07JGDBBFDI@nrhs?$DN?$DN1?$AA@ 100338ec     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038f4       ??_C@_07KBNAPCKL@nlhs?$DN?$DN1?$AA@ 100338f4     sfc_debugmsvc80:sfc_api.obj
+ 0002:000038fc       ??_C@_08PAMHJLPB@statusOk?$AA@ 100338fc     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003908       ??_C@_07NJHAIDPP@nrhs?$DN?$DN6?$AA@ 10033908     sfc_debugmsvc80:sfc_api.obj
+ 0002:00003910       ??_C@_0L@EMNHGDGL@nlhs?$DN?$DNnrhs?$AA@ 10033910     sfc_debugmsvc80:sfc_api.obj
+ 0002:0000391c       ??_C@_0P@BLJCAHMG@select_objects?$AA@ 1003391c     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:0000392c       ??_C@_06CFKBOPCI@states?$AA@ 1003392c     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003934       ??_C@_0P@KHIIFDEG@instanceHandle?$AA@ 10033934     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003944       ??_C@_0P@DEIGLMOE@instanceNumber?$AA@ 10033944     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003954       ??_C@_0N@HACOJJON@instanceName?$AA@ 10033954     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003964       ??_C@_0M@BFNIOHPP@chartNumber?$AA@ 10033964     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003970       ??_C@_09KMHJEGJ@chartName?$AA@ 10033970     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:0000397c       ??_C@_06OOECHJN@charts?$AA@ 1003397c     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003984       ??_C@_0O@LOMGGENK@machineNumber?$AA@ 10033984     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003994       ??_C@_09OOJCKABH@machineId?$AA@ 10033994     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:000039a0       ??_C@_0M@OCOCCFP@machineName?$AA@ 100339a0     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:000039ac       ??_C@_0CN@CCJEMGOM@?$CIinstance?9?$DOsm?4statePack?$CJ?4length?$DO@ 100339ac     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:000039dc       ??_C@_0DC@DKAJIDPA@?$CIinstance?9?$DOsm?4transitionPack?$CJ?4le@ 100339dc     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003a10       ??_C@_0BB@EGGLBLCL@sfdb_animation?4c?$AA@ 10033a10     sfc_debugmsvc80:sfdb_animation.obj
+ 0002:00003a24       ??_C@_0BB@GDGPIGLB@cv_model_enabled?$AA@ 10033a24     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a38       ??_C@_09DDDNMFIJ@get_param?$AA@ 10033a38     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a44       ??_C@_0L@BODNDPN@CoverageId?$AA@ 10033a44     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a50       __real@4008000000000000    10033a50     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a58       ??_C@_05IEGMLJMJ@exist?$AA@ 10033a58     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a60       ??_C@_02DDEKINOE@cv?$AA@   10033a60     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a68       __real@4082c00000000000    10033a68     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a70       ??_C@_0O@HGNEKHDK@MatlabVersion?$AA@ 10033a70     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a80       ??_C@_0M@IIAIMKFO@status?5?$DN?$DN?50?$AA@ 10033a80     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003a8c       ??_C@_0BB@ENEMAMMG@cv_sfinterface?4c?$AA@ 10033a8c     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003aa0       ??_C@_0CC@JMPFGLON@mxGetNumberOfElements?$CIplhs?$FL3?$FN?$CJ?$DN?$DN@ 10033aa0     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003ac4       ??_C@_0P@MCDOIOOF@plhs?$FL3?$FN?5?$CB?$DNNULL?$AA@ 10033ac4     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003ad4       ??_C@_0P@HAMLCBNF@len?$DM?$DNdataCount?$AA@ 10033ad4     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003ae4       ??_C@_0BA@FJOAHKLL@len?$DN?$DNtransCount?$AA@ 10033ae4     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003af4       ??_C@_0BA@JELAJLGI@len?$DN?$DNstateCount?$AA@ 10033af4     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b04       ??_C@_0BC@NEFBEIHN@InitChartInstance?$AA@ 10033b04     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b18       ??_C@_04MMALOABH@cvsf?$AA@ 10033b18     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b20       ??_C@_0L@GIEKKEHF@InitScript?$AA@ 10033b20     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b2c       ??_C@_08DNDOONPK@sigrange?$AA@ 10033b2c     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b38       ??_C@_0O@KGBGEHIN@MetricEnabled?$AA@ 10033b38     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b48       ??_C@_0BC@NKPEPJDJ@chart?9?$DOchartId?$CB?$DN0?$AA@ 10033b48     sfc_debugmsvc80:cv_sfinterface.obj
+ 0002:00003b5c       ??_C@_02GMHACPFF@?$CFu?$AA@ 10033b5c     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003b60       ??_C@_02NJPGOMH@?$CFf?$AA@ 10033b60     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003b64       ??_C@_0BD@PCGIEHBF@sfdb_data_browse?4c?$AA@ 10033b64     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003b78       __real@c2a2309ce53fffcd    10033b78     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003b80       ??_C@_0CK@JKBFHDPL@result?5?$DN?5mxCreateDoubleMatrix?$CI1?0@ 10033b80     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003bac       ??_C@_0DK@FJDNFCNK@result?5?$DN?5mxCreateDoubleMatrix?$CI1?0@ 10033bac     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003be8       ??_C@_0DL@OAKPHGJG@result?5?$DN?5mxCreateDoubleMatrix?$CI1?0@ 10033be8     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c24       ??_C@_0N@MNGHGLAH@isFixedPoint?$AA@ 10033c24     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c34       ??_C@_06DLEPGFEF@format?$AA@ 10033c34     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c3c       ??_C@_05MFEJDJP@value?$AA@ 10033c3c     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c44       ??_C@_05DCCHDMEJ@scope?$AA@ 10033c44     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c4c       ??_C@_02EGCJHIOB@id?$AA@   10033c4c     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c50       ??_C@_04PJOLNDGD@data?$AA@ 10033c50     sfc_debugmsvc80:sfdb_data_browse.obj
+ 0002:00003c58       ??_C@_06LIBBAANI@len?$DN?$DN1?$AA@ 10033c58     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003c60       ??_C@_0BJ@IEEBKHME@sfdb_handle_management?4c?$AA@ 10033c60     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003c7c       ??_C@_06NCGDPKCC@handle?$AA@ 10033c7c     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003c84       ??_C@_0BP@NAIIDBEE@parentObjectType?$DN?$DNCHART_OBJECT?$AA@ 10033c84     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003ca4       ??_C@_0BD@JOOOIBOE@get_machine_option?$AA@ 10033ca4     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003cb8       ??_C@_0P@KGLBOIAN@get_machine_id?$AA@ 10033cb8     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003cc8       ??_C@_0N@OBHOGINE@get_chart_id?$AA@ 10033cc8     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003cd8       ??_C@_0BD@DICPGEAM@register_sfunction?$AA@ 10033cd8     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003cec       ??_C@_0BF@FENDCECP@get_chart_visibility?$AA@ 10033cec     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003d04       ??_C@_0BM@FDGIEMLG@objectProperties?9?$DOlength?$DN?$DN0?$AA@ 10033d04     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003d20       ??_C@_0CE@KBPIEDGG@?$CI?$CI?$CKobjectProperties?$CJ?$CJ?4length?$DOnum@ 10033d20     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003d44       ??_C@_0CA@HFGDFECP@len?5?$DN?$DN?5objectProperties?9?$DOlength?$AA@ 10033d44     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003d64       ??_C@_0P@BHPLCHGJ@get_object_ids?$AA@ 10033d64     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003d74       ??_C@_0BK@IFFOLHLE@objectProperties?9?$DOsize?$DN?$DN0?$AA@ 10033d74     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003d90       ??_C@_0BO@GFLPGHHM@len?5?$DO?$DN?5objectProperties?9?$DOsize?$AA@ 10033d90     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003db0       ??_C@_05GFHEIIDD@event?$AA@ 10033db0     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003db8       ??_C@_0M@BFOKCNLA@debug?4watch?$AA@ 10033db8     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003dc4       ??_C@_0CE@OILCPIFA@machine?4debug?4disableAllBreakpoi@ 10033dc4     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003de8       ??_C@_0DA@JMDEGBBH@machine?4debug?4runTimeCheck?4state@ 10033de8     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003e18       ??_C@_0CP@IPHIMGFA@machine?4debug?4runTimeCheck?4trans@ 10033e18     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003e48       ??_C@_0CL@LENOAAKD@machine?4debug?4runTimeCheck?4dataR@ 10033e48     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003e74       ??_C@_0CK@MBMAMLGE@machine?4debug?4runTimeCheck?4cycle@ 10033e74     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003ea0       ??_C@_0CA@EGLALCO@machine?4debug?4animation?4enabled?$AA@ 10033ea0     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003ec0       ??_C@_0L@KGLELNDP@transition?$AA@ 10033ec0     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003ecc       ??_C@_06JKPEPHBG@dst?4id?$AA@ 10033ecc     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003ed4       ??_C@_05HDBKIDE@state?$AA@ 10033ed4     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003ee0       ??_C@_0EG@MFIKDIJB@strlen?$CImachineName?$CJ?5?$DM?5sizeof?$CIdeb@ 10033ee0     sfc_debugmsvc80:sfdb_handle_management.obj
+ 0002:00003f28       ??_C@_0BM@DEONCIBN@stackPtr?5?$DN?$DN?5symScope?9?$DOstack?$AA@ 10033f28     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00003f44       ??_C@_0BE@PIKAOBFK@sfdb_symbol_scope?4c?$AA@ 10033f44     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00003f58       ??_C@_0BP@MJGDIBPE@symScope?9?$DOcurrentScope?5?$CB?$DN?5NULL?$AA@ 10033f58     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00003f78       ??_C@_0BP@OCHHKFJA@symScope?9?$DOcurrentScope?5?$DN?$DN?5NULL?$AA@ 10033f78     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00003f98       ??_C@_0BM@KCIKANPA@symScope?9?$DOstack?5?$DN?$DN?5stackPtr?$AA@ 10033f98     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00003fb4       ??_C@_0DK@NCABFGD@symScope?9?$DOcurrentScope?5?$CB?$DN?5NULL?5?$CG@ 10033fb4     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00003ff0       ??_C@_0DL@LDAGNOEE@currScope?9?$DOsymbolTable?4count?5?$DM?5c@ 10033ff0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000402c       ??_C@_0BK@PHCKFGOO@numDims?5?$DM?$DN?5MAX_DIMENSIONS?$AA@ 1003402c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004048       ??_C@_0EE@CLCFNFKP@Warning?3?5Can?8t?5display?5value?4?5Nu@ 10034048     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000408c       ??_C@_0BB@NPDHFBEP@valuePtr?5?$CB?$DN?5NULL?$AA@ 1003408c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000040a0       ??_C@_0O@CHHKIHJE@chart?5?$CB?$DN?5NULL?$AA@ 100340a0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000040b0       ??_C@_0CB@PFGINMAC@dataInfo?5?$CG?$CG?5data?5?$CG?$CG?5st?5?$CG?$CG?5i?5?$DO?$DN?50@ 100340b0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000040d8       ??_C@_0PC@ENOLANEC@Cannot?5change?5value?5of?5?8?$CFs?8?5at?5d@ 100340d8     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000041cc       ??_C@_02PINLEBJB@fi?$AA@   100341cc     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000041d0       ??_C@_06FDANFAAP@sim2fi?$AA@ 100341d0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000041d8       ??_C@_0N@PGGMJAFA@Out?5of?5Scope?$AA@ 100341d8     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000041e8       ??_C@_0BF@KFJKGDMO@Unrecognized?5symbol?4?$AA@ 100341e8     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004200       ??_C@_0L@INJGJGAM@?5?$CIcomplex?$CJ?$AA@ 10034200     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000420c       ??_C@_0O@MHGLJPE@fixpt?5?$CI?$CFs?5?$CFs?$CJ?$AA@ 1003420c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000421c       ??_C@_08FFKICJMO@?$CFs?$CL?$CF?416g?$AA@ 1003421c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004228       ??_C@_02EPPPECEI@SI?$AA@   10034228     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000422c       ??_C@_09LKFGHFHF@?$CFs?$CI2?$FO?$CFd?$CJ?$CK?$AA@ 1003422c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004238       ??_C@_06KJECHFDK@?$CF?416g?$CK?$AA@ 10034238     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004240       ??_C@_02IJPJFKDF@ml?$AA@   10034240     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004244       ??_C@_0O@NJOJHIHO@logical?5array?$AA@ 10034244     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004254       ??_C@_0L@MDMKKENH@char?5array?$AA@ 10034254     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004260       ??_C@_0N@DGCGENML@uint32?5array?$AA@ 10034260     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004270       ??_C@_0M@OFFMACLB@int32?5array?$AA@ 10034270     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000427c       ??_C@_0N@JMJKGLLH@uint16?5array?$AA@ 1003427c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:0000428c       ??_C@_0M@EPOACEMN@int16?5array?$AA@ 1003428c     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004298       ??_C@_0M@NOMKNEGI@uint8?5array?$AA@ 10034298     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042a4       ??_C@_0L@HCHBFFAP@int8?5array?$AA@ 100342a4     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042b0       ??_C@_0N@KIFCNMIF@single?5array?$AA@ 100342b0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042c0       ??_C@_0N@OFOFFBCM@double?5array?$AA@ 100342c0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042d0       ??_C@_04CADIJHHA@?$CFd?9D?$AA@ 100342d0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042d8       ??_C@_05JIPKJPMI@?$CFs?$CFdx?$AA@ 100342d8     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042e0       ??_C@_04BIAHPGJI@?$CFdx1?$AA@ 100342e0     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:000042e8       ??_C@_0BH@GLACFBLP@?5?$CIvariable?5sized?3?5MAX?5?$AA@ 100342e8     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004300       ??_C@_07CIFAGBMG@unknown?$AA@ 10034300     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004308       ??_C@_05ENKANFLO@class?$AA@ 10034308     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004310       ??_C@_05FBJAGGIG@bytes?$AA@ 10034310     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004318       ??_C@_04MEMAJGDJ@name?$AA@ 10034318     sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0002:00004320       ??_C@_0CF@NELOECCL@coverageVector?9?$DOlength?$DOcoverageI@ 10034320     sfc_debugmsvc80:sfdb_coverage.obj
+ 0002:00004348       ??_C@_0BA@CBMBNBFB@sfdb_coverage?4c?$AA@ 10034348     sfc_debugmsvc80:sfdb_coverage.obj
+ 0002:00004358       ??_C@_0DN@FAEHHEAM@?$CIscript?9?$DObm?4breakpoints?$CJ?4length?$DO@ 10034358     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004398       ??_C@_0BD@BABBLJFB@sfdb_breakpoints?4c?$AA@ 10034398     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000043ac       ??_C@_0P@IGHKOFID@get_script_bps?$AA@ 100343ac     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000043bc       ??_C@_0BA@ICOJJJDD@get_all_scripts?$AA@ 100343bc     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000043d0       ??_C@_0EI@EDDFBGGP@?$CIunsigned?5int?$CJ?$CImxGetM?$CIplhs?$FL0?$FN?$CJ?5?$CK@ 100343d0     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004418       ??_C@_0BE@PNADEEOB@get_eml_line_counts?$AA@ 10034418     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:0000442c       ??_C@_0CC@JPCLBDPC@mxGetNumberOfElements?$CIplhs?$FL0?$FN?$CJ?$DN?$DN@ 1003442c     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004450       ??_C@_0P@EHJHKHLL@get_global_bps?$AA@ 10034450     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004460       ??_C@_0CE@NADCJCF@?$CIchart?9?$DObm?4chart?$FLtagType?$FN?$CJ?4lengt@ 10034460     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004484       ??_C@_0DB@PCFIPMMH@?$CImachine?9?$DObm?4event?$FLtagType?$FN?$CJ?4len@ 10034484     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000044b8       ??_C@_0CP@FENPPAOI@?$CIchart?9?$DObm?4event?$FLtagType?$FN?$CJ?4lengt@ 100344b8     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000044e8       ??_C@_0DE@GNPGALGC@?$CIchart?9?$DObm?4transition?$FLtagType?$FN?$CJ?4@ 100344e8     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:0000451c       ??_C@_0CP@JOFCMAIP@?$CIchart?9?$DObm?4state?$FLtagType?$FN?$CJ?4lengt@ 1003451c     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:0000454c       ??_C@_0CH@EKAIFOIL@numCols?5?$DN?$DN?5TOTAL_EVENT_BREAKPOIN@ 1003454c     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004574       ??_C@_0CA@BECONEOF@numRows?5?$DN?$DN?5machine?9?$DOevent?4count?$AA@ 10034574     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004594       ??_C@_07HCEBIAFG@get_bps?$AA@ 10034594     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:0000459c       ??_C@_0N@CNOINHPD@numCols?5?$DN?$DN?51?$AA@ 1003459c     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000045ac       ??_C@_0M@NNPJEEAE@get_eml_bps?$AA@ 100345ac     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000045b8       ??_C@_0BO@CDPAPHEM@numRows?5?$DN?$DN?5chart?9?$DOevent?4count?$AA@ 100345b8     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000045d8       ??_C@_0CM@FFJFHNEO@numCols?5?$DN?$DN?5TOTAL_TRANSITION_BREA@ 100345d8     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004604       ??_C@_0CD@IOIMPEBN@numRows?5?$DN?$DN?5chart?9?$DOtransition?4cou@ 10034604     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004628       ??_C@_0CH@JEIBGOOJ@numCols?5?$DN?$DN?5TOTAL_STATE_BREAKPOIN@ 10034628     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004650       ??_C@_0BO@BIKNFPLB@numRows?5?$DN?$DN?5chart?9?$DOstate?4count?$AA@ 10034650     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004670       ??_C@_0CH@BNLENKGD@numCols?5?$DN?$DN?5TOTAL_CHART_BREAKPOIN@ 10034670     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:00004698       ??_C@_0N@MEFFBAFI@numRows?5?$DN?$DN?51?$AA@ 10034698     sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0002:000046a8       ??_C@_0BJ@BLHBHILO@sfdb_state_consistency?4c?$AA@ 100346a8     sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0002:000046c4       ??_C@_09LHFAMEGK@errorType?$AA@ 100346c4     sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0002:000046d0       ??_C@_08DLAIKNBK@objectId?$AA@ 100346d0     sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0002:000046dc       ??_C@_0L@GODCDFEF@objectType?$AA@ 100346dc     sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0002:000046e8       ??_C@_0L@CCGENCKP@errorStack?$AA@ 100346e8     sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0002:000046f4       ??_C@_0O@PPHMCEKO@cycleDetected?$AA@ 100346f4     sfc_debugmsvc80:sfdb_call_stack.obj
+ 0002:00004704       ??_C@_0N@MGKMJLEK@cycleStarted?$AA@ 10034704     sfc_debugmsvc80:sfdb_call_stack.obj
+ 0002:00004714       ??_C@_07BNCILGOA@tagType?$AA@ 10034714     sfc_debugmsvc80:sfdb_call_stack.obj
+ 0002:0000471c       ??_C@_0L@POKIGEMP@eventScope?$AA@ 1003471c     sfc_debugmsvc80:sfdb_call_stack.obj
+ 0002:00004728       ??_C@_0M@LKJJPLIC@traceVector?$AA@ 10034728     sfc_debugmsvc80:sfdb_call_stack.obj
+ 0002:00004738       ??_C@_0EC@MGCLADPL@?$CIinstance?9?$DOcycleDetection?4transi@ 10034738     sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0002:0000477c       ??_C@_0BH@ELCAAKDD@sfdb_cycle_detection?4c?$AA@ 1003477c     sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0002:00004794       ??_C@_0O@PICIAFIK@newNode?$CB?$DNNULL?$AA@ 10034794     sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0002:000047a4       __pDefaultRawDllMain       100347a4     MSVCRT:crtdll.obj
+ 0002:000047a4       __pRawDllMain              100347a4     MSVCRT:crtdll.obj
+ 0002:000047b0       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 100347b0     MSVCRT:tncleanup.obj
+ 0002:000047b4       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 100347b4     MSVCRT:tncleanup.obj
+ 0002:000047b8       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 100347b8     MSVCRT:tncleanup.obj
+ 0002:000047bc       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 100347bc     MSVCRT:tncleanup.obj
+ 0002:000047c0       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 100347c0     MSVCRT:tncleanup.obj
+ 0002:000047c8       __load_config_used         100347c8     MSVCRT:loadcfg.obj
+ 0002:00004810       ___safe_se_handler_table   10034810     <linker-defined>
+ 0002:00004814       ___rtc_iaa                 10034814     MSVCRT:_initsect_.obj
+ 0002:00004818       ___rtc_izz                 10034818     MSVCRT:_initsect_.obj
+ 0002:0000481c       ___rtc_taa                 1003481c     MSVCRT:_initsect_.obj
+ 0002:00004820       ___rtc_tzz                 10034820     MSVCRT:_initsect_.obj
+ 0002:0000488c       __IMPORT_DESCRIPTOR_libmx  1003488c     libmx:libmx.dll
+ 0002:000048a0       __IMPORT_DESCRIPTOR_libmex 100348a0     libmex:libmex.dll
+ 0002:000048b4       __IMPORT_DESCRIPTOR_libfixedpoint 100348b4     libfixedpoint:libfixedpoint.dll
+ 0002:000048c8       __IMPORT_DESCRIPTOR_libut  100348c8     libut:libut.dll
+ 0002:000048dc       __IMPORT_DESCRIPTOR_libmwmathutil 100348dc     libmwmathutil:libmwmathutil.dll
+ 0002:000048f0       __IMPORT_DESCRIPTOR_libemlrt 100348f0     libemlrt:libemlrt.dll
+ 0002:00004904       __IMPORT_DESCRIPTOR_MSVCR100 10034904     MSVCRT:MSVCR100.dll
+ 0002:00004918       __IMPORT_DESCRIPTOR_KERNEL32 10034918     kernel32:KERNEL32.dll
+ 0002:0000492c       __NULL_IMPORT_DESCRIPTOR   1003492c     libmx:libmx.dll
+ 0003:0000226c       _DYNAMIC_DIMENSION         1003826c     Control_linear_sfun_registry.obj
+ 0003:00002f04       _emlrtContextGlobal        10038f04     sfc_mexmsvc80:sfc_mex.obj
+ 0003:00002f80       ___security_cookie         10038f80     MSVCRT:gs_cookie.obj
+ 0003:00002f84       ___security_cookie_complement 10038f84     MSVCRT:gs_cookie.obj
+ 0003:00002f90       ___native_dllmain_reason   10038f90     MSVCRT:natstart.obj
+ 0003:00002f94       ___native_vcclrit_reason   10038f94     MSVCRT:natstart.obj
+ 0003:00004194       _emlrtRootTLSGlobal        1003a194     sfc_mexmsvc80:sfc_mex.obj
+ 0003:00004440       _sSFDebuggerInitialized    1003a440     sfc_debugmsvc80:sfcdebug.obj
+ 0003:0000520c       ?__type_info_root_node@@3U__type_info_node@@A 1003b20c     MSVCRT:tncleanup.obj
+ 0003:00005218       __sfTime_                  1003b218     <common>
+ 0003:00005220       __Control_linearMachineNumber_ 1003b220     <common>
+ 0003:00005240       _gSfComplexDataTypeOffsets 1003b240     <common>
+ 0003:000052a0       _gSfDataTypeOffsets        1003b2a0     <common>
+ 0003:000052e8       _gMaskBits                 1003b2e8     <common>
+ 0003:000052f0       ___native_startup_state    1003b2f0     <common>
+ 0003:000052f4       ___native_startup_lock     1003b2f4     <common>
+ 0003:000052f8       ___onexitend               1003b2f8     <common>
+ 0003:000052fc       ___onexitbegin             1003b2fc     <common>
+ 0003:00005300       ___sse2_available          1003b300     <common>
+ 0003:00005304       ___dyn_tls_init_callback   1003b304     <common>
+
+ entry point at        0001:0002de87
+
+ Static symbols
+
+ 0001:00001150       _get_sim_state_c1_Control_linear 10002150 f   c1_Control_linear.obj
+ 0001:000012e0       _sf_get_sim_state_info_c1_Control_linear 100022e0 f   c1_Control_linear.obj
+ 0001:00001480       _set_sim_state_c1_Control_linear 10002480 f   c1_Control_linear.obj
+ 0001:000015a0       _c1_update_debugger_state_c1_Control_linear 100025a0 f   c1_Control_linear.obj
+ 0001:000015b0       _c1_emlrt_marshallIn       100025b0 f   c1_Control_linear.obj
+ 0001:00001600       _c1_b_emlrt_marshallIn     10002600 f   c1_Control_linear.obj
+ 0001:00001650       _c1_d_emlrt_marshallIn     10002650 f   c1_Control_linear.obj
+ 0001:000016a0       _c1_e_emlrt_marshallIn     100026a0 f   c1_Control_linear.obj
+ 0001:00001780       _mdlProcessParameters_c1_Control_linear 10002780 f   c1_Control_linear.obj
+ 0001:00001820       _initialize_params_c1_Control_linear 10002820 f   c1_Control_linear.obj
+ 0001:00001830       _mdlSetWorkWidths_c1_Control_linear 10002830 f   c1_Control_linear.obj
+ 0001:00001c00       _sf_get_instance_specialization 10002c00 f   c1_Control_linear.obj
+ 0001:00001c10       _sf_set_sfun_dwork_info    10002c10 f   c1_Control_linear.obj
+ 0001:00001c40       _mdlStart_c1_Control_linear 10002c40 f   c1_Control_linear.obj
+ 0001:00001db0       _init_dsm_address_info     10002db0 f   c1_Control_linear.obj
+ 0001:00001dc0       _chart_debug_initialization 10002dc0 f   c1_Control_linear.obj
+ 0001:000026c0       _init_script_number_translation 100036c0 f   c1_Control_linear.obj
+ 0001:000026d0       _c1_sf_marshallOut         100036d0 f   c1_Control_linear.obj
+ 0001:00002750       _c1_sf_marshallIn          10003750 f   c1_Control_linear.obj
+ 0001:000027d0       _sf_opaque_initialize_c1_Control_linear 100037d0 f   c1_Control_linear.obj
+ 0001:00002810       _initialize_c1_Control_linear 10003810 f   c1_Control_linear.obj
+ 0001:00002870       _sf_check_dwork_consistency 10003870 f   c1_Control_linear.obj
+ 0001:000029a0       _sf_opaque_enable_c1_Control_linear 100039a0 f   c1_Control_linear.obj
+ 0001:000029c0       _enable_c1_Control_linear  100039c0 f   c1_Control_linear.obj
+ 0001:000029e0       _sf_opaque_disable_c1_Control_linear 100039e0 f   c1_Control_linear.obj
+ 0001:00002a00       _disable_c1_Control_linear 10003a00 f   c1_Control_linear.obj
+ 0001:00002a20       _sf_opaque_gateway_c1_Control_linear 10003a20 f   c1_Control_linear.obj
+ 0001:00002a40       _sf_c1_Control_linear      10003a40 f   c1_Control_linear.obj
+ 0001:00003460       _sf_opaque_ext_mode_exec_c1_Control_linear 10004460 f   c1_Control_linear.obj
+ 0001:00003480       _ext_mode_exec_c1_Control_linear 10004480 f   c1_Control_linear.obj
+ 0001:000034a0       _sf_opaque_get_sim_state_c1_Control_linear 100044a0 f   c1_Control_linear.obj
+ 0001:000034c0       _sf_opaque_set_sim_state_c1_Control_linear 100044c0 f   c1_Control_linear.obj
+ 0001:000034e0       _sf_opaque_terminate_c1_Control_linear 100044e0 f   c1_Control_linear.obj
+ 0001:00003550       _finalize_c1_Control_linear 10004550 f   c1_Control_linear.obj
+ 0001:00003560       _sf_opaque_init_subchart_simstructs 10004560 f   c1_Control_linear.obj
+ 0001:00003580       _initSimStructsc1_Control_linear 10004580 f   c1_Control_linear.obj
+ 0001:00003590       _sf_get_sfun_dwork_checksum 10004590 f   c1_Control_linear.obj
+ 0001:000035a0       _mdlRTW_c1_Control_linear  100045a0 f   c1_Control_linear.obj
+ 0001:00004240       _get_sim_state_c2_Control_linear 10005240 f   c2_Control_linear.obj
+ 0001:000043d0       _sf_get_sim_state_info_c2_Control_linear 100053d0 f   c2_Control_linear.obj
+ 0001:00004570       _set_sim_state_c2_Control_linear 10005570 f   c2_Control_linear.obj
+ 0001:00004690       _c2_update_debugger_state_c2_Control_linear 10005690 f   c2_Control_linear.obj
+ 0001:000046a0       _c2_emlrt_marshallIn       100056a0 f   c2_Control_linear.obj
+ 0001:000046f0       _c2_b_emlrt_marshallIn     100056f0 f   c2_Control_linear.obj
+ 0001:00004740       _c2_d_emlrt_marshallIn     10005740 f   c2_Control_linear.obj
+ 0001:00004790       _c2_e_emlrt_marshallIn     10005790 f   c2_Control_linear.obj
+ 0001:00004870       _mdlProcessParameters_c2_Control_linear 10005870 f   c2_Control_linear.obj
+ 0001:00004910       _initialize_params_c2_Control_linear 10005910 f   c2_Control_linear.obj
+ 0001:00004920       _mdlSetWorkWidths_c2_Control_linear 10005920 f   c2_Control_linear.obj
+ 0001:00004c40       _sf_get_instance_specialization 10005c40 f   c2_Control_linear.obj
+ 0001:00004c50       _sf_set_sfun_dwork_info    10005c50 f   c2_Control_linear.obj
+ 0001:00004c80       _mdlStart_c2_Control_linear 10005c80 f   c2_Control_linear.obj
+ 0001:00004df0       _init_dsm_address_info     10005df0 f   c2_Control_linear.obj
+ 0001:00004e00       _chart_debug_initialization 10005e00 f   c2_Control_linear.obj
+ 0001:00005390       _init_script_number_translation 10006390 f   c2_Control_linear.obj
+ 0001:000053a0       _c2_sf_marshallOut         100063a0 f   c2_Control_linear.obj
+ 0001:00005420       _c2_sf_marshallIn          10006420 f   c2_Control_linear.obj
+ 0001:000054a0       _sf_opaque_initialize_c2_Control_linear 100064a0 f   c2_Control_linear.obj
+ 0001:000054e0       _initialize_c2_Control_linear 100064e0 f   c2_Control_linear.obj
+ 0001:00005540       _sf_check_dwork_consistency 10006540 f   c2_Control_linear.obj
+ 0001:00005670       _sf_opaque_enable_c2_Control_linear 10006670 f   c2_Control_linear.obj
+ 0001:00005690       _enable_c2_Control_linear  10006690 f   c2_Control_linear.obj
+ 0001:000056b0       _sf_opaque_disable_c2_Control_linear 100066b0 f   c2_Control_linear.obj
+ 0001:000056d0       _disable_c2_Control_linear 100066d0 f   c2_Control_linear.obj
+ 0001:000056f0       _sf_opaque_gateway_c2_Control_linear 100066f0 f   c2_Control_linear.obj
+ 0001:00005710       _sf_c2_Control_linear      10006710 f   c2_Control_linear.obj
+ 0001:00005bb0       _c2_mpower                 10006bb0 f   c2_Control_linear.obj
+ 0001:00005c10       _c2_eml_error              10006c10 f   c2_Control_linear.obj
+ 0001:00005cc0       _sf_opaque_ext_mode_exec_c2_Control_linear 10006cc0 f   c2_Control_linear.obj
+ 0001:00005ce0       _ext_mode_exec_c2_Control_linear 10006ce0 f   c2_Control_linear.obj
+ 0001:00005d00       _sf_opaque_get_sim_state_c2_Control_linear 10006d00 f   c2_Control_linear.obj
+ 0001:00005d20       _sf_opaque_set_sim_state_c2_Control_linear 10006d20 f   c2_Control_linear.obj
+ 0001:00005d40       _sf_opaque_terminate_c2_Control_linear 10006d40 f   c2_Control_linear.obj
+ 0001:00005db0       _finalize_c2_Control_linear 10006db0 f   c2_Control_linear.obj
+ 0001:00005dc0       _sf_opaque_init_subchart_simstructs 10006dc0 f   c2_Control_linear.obj
+ 0001:00005de0       _initSimStructsc2_Control_linear 10006de0 f   c2_Control_linear.obj
+ 0001:00005df0       _sf_get_sfun_dwork_checksum 10006df0 f   c2_Control_linear.obj
+ 0001:00005e00       _mdlRTW_c2_Control_linear  10006e00 f   c2_Control_linear.obj
+ 0001:00007340       __ssFatalError             10008340 f   Control_linear_sfun_registry.obj
+ 0001:000096a0       _ProcessMexSfunctionCmdLineCall 1000a6a0 f   Control_linear_sfun_registry.obj
+ 0001:00009790       _mdlGetTimeOfNextVarHit    1000a790 f   Control_linear_sfun_registry.obj
+ 0001:000097d0       __ProcessMexSfunctionCmdLineCall 1000a7d0 f   Control_linear_sfun_registry.obj
+ 0001:00009df0       __CreateSimStruct          1000adf0 f   Control_linear_sfun_registry.obj
+ 0001:00009f20       __RegNumInputPortsCB       1000af20 f   Control_linear_sfun_registry.obj
+ 0001:00009f80       __RegNumOutputPortsCB      1000af80 f   Control_linear_sfun_registry.obj
+ 0001:0000a030       _sf_machine_load_sfunction_ptrs 1000b030 f   Control_linear_sfun_registry.obj
+ 0001:0000a9e0       _getThreadLocalStorage     1000b9e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aa10       _releaseThreadLocalStorage 1000ba10 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aa20       _SNPRINTF_WRAPPER          1000ba20 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aa40       _convert_dims_to_string    1000ba40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ac10       _is_real_T_equal_to_double 1000bc10 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ac30       _is_real32_T_equal_to_double 1000bc30 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ac40       _is_mxLogical_equal_to_double 1000bc40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ac70       _is_int8_T_equal_to_double 1000bc70 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aca0       _is_uint8_T_equal_to_double 1000bca0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000acd0       _is_int16_T_equal_to_double 1000bcd0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ad00       _is_uint16_T_equal_to_double 1000bd00 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ad30       _is_int32_T_equal_to_double 1000bd30 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ad50       _is_uint32_T_equal_to_double 1000bd50 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ad80       _is_char_T_equal_to_double 1000bd80 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000adb0       _sf_zero_numeric_value     1000bdb0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ade0       _sf_error_append_debugger_context_if_available 1000bde0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aea0       _sf_mex_get_error_message_for_write 1000bea0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000aed0       _replace_single_quotes_by_doubled_quotes 1000bed0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b0e0       _sf_mex_get_formatted_error_string 1000c0e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b4b0       _sf_mex_destroy_array      1000c4b0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b6c0       _sfrtAddSize               1000c6c0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b770       _sfrtGenSizeString         1000c770 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b7a0       _sfIsProperVector          1000c7a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b7d0       _sfIsRowVector             1000c7d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000b900       _sf_ExtractMessageId       1000c900 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bb40       _sf_mex_err                1000cb40 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bbd0       _sf_error_dimension_out_of_bound 1000cbd0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bc70       _sf_mex_check_and_set_actual_dimensions 1000cc70 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bdf0       _sf_mex_check_complex      1000cdf0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000be60       _sf_mex_check_sparse       1000ce60 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bea0       _sf_mex_check_numerictype  1000cea0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000bf30       _sf_mex_check_fimath       1000cf30 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000c630       _size_mismatch_error       1000d630 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ce80       _check_array_dimensions    1000de80 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ced0       _check_input_mxarray       1000ded0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d570       _sf_numeric_value_to_double 1000e570 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d5b0       _ml_generic_out_of_bounds_check 1000e5b0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000d740       _ml_get_element_value_from_array 1000e740 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000dc10       __ml_generic_castability_check 1000ec10 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e4a0       _ml_generic_castability_check 1000f4a0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e500       _ml_check_mx_array_for_single_castability 1000f500 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e570       _ml_check_mx_array_for_logical_castability 1000f570 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e5d0       _ml_check_mx_array_for_int8_castability 1000f5d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e660       _ml_check_mx_array_for_uint8_castability 1000f660 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e6d0       _ml_check_mx_array_for_int16_castability 1000f6d0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e740       _ml_check_mx_array_for_uint16_castability 1000f740 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e7b0       _ml_check_mx_array_for_int32_castability 1000f7b0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e820       _ml_check_mx_array_for_uint32_castability 1000f820 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000e890       _ml_check_mx_array_for_castability 1000f890 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000ef10       _set_data_value            1000ff10 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f3e0       _get_data_value            100103e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f4e0       _get_next_element_address  100104e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f580       _sf_normalize_index        10010580 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:0000f810       _ml_array_index_bound_check 10010810 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:000100e0       _mx_value                  100110e0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010130       _sf_create_numeric_array   10011130 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:000101b0       _sf_mex_assign_to_mx_array 100111b0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010410       _assign_from_mx_array      10011410 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00010bd0       _sf_mex_import_v           10011bd0 f   sfc_mexmsvc80:sfc_mex.obj
+ 0001:00011080       _get_machine_and_chart_file_number 10012080 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011140       _get_sfun_block_specialization 10012140 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000111c0       _call_sf_machine_global_method_dispatcher 100121c0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011380       _mdl_zeroCrossings_processing 10012380 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011430       _mdl_derivatives_processing 10012430 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000116b0       _mdl_outputs_continuous_legacy 100126b0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011730       _mdl_outputs_processing    10012730 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011960       _mdl_enable_processing     10012960 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00011a10       _mdl_disable_processing    10012a10 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000124c0       _sf_call_output_fcn_enable_disable 100134c0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000126e0       _set_dwork_information_from_mx_array 100136e0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:00012fc0       _ptr2mxStruct              10013fc0 f   sfc_mexmsvc80:sfc_sf.obj
+ 0001:000131d0       _SNPRINTF_WRAPPER          100141d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000131f0       _sf_debug_chart_instance_initialized_quick 100141f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013200       _sf_debug_chart_instance_initialized 10014200 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013380       _sfrtAddSize               10014380 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013430       _sfrtGenSizeString         10014430 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000138b0       _fill_single_message_info  100148b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013a10       _sf_debug_sim_status_listener 10014a10 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013e80       _sf_debug_form_mask_bits   10014e80 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013ec0       _sf_debug_form_sf_data_type_offsets 10014ec0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00013f50       _sf_debug_free_all         10014f50 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000140f0       _sf_debug_append_debugger_context 100150f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000142a0       _sf_debug_update_always_honor_breakpoints 100152a0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00014480       _local_strdup              10015480 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000150e0       _sf_debug_em_terminate     100160e0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015120       _sf_debug_push_eml_function 10016120 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000151b0       _sf_debug_pop_eml_function 100161b0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015a90       _sf_debug_get_machine_number_from_id_or_name 10016a90 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00015bf0       _sf_debug_get_chart_number_from_id 10016bf0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000165e0       _sf_debug_transfer_control_to_debugger_GUI 100175e0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017340       _sf_debug_scripts_rehash   10018340 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000174f0       _sf_debug_get_script_line_count 100184f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017ae0       _cv_eml_state_cvId         10018ae0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00017b30       _cv_eml_trans_cvId         10018b30 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000188f0       _sf_debug_data_array_bounds_error 100198f0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018c00       _eml_debug_runtime_error_doclink 10019c00 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018d20       _sf_debug_runtime_error    10019d20 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:00018d70       _sf_debug_matlab_error     10019d70 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000192e0       _sf_debug_data_value_error 1001a2e0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:000198e0       _sf_debug_data_loss_error  1001a8e0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a410       _call_cv_range_check       1001b410 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001a980       _sf_debug_invoke_cycle_detection_code 1001b980 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001b2d0       _sf_reset_debug_info_struct 1001c2d0 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001b940       _cv_script_cvId            1001c940 f   sfc_debugmsvc80:sfcdebug.obj
+ 0001:0001c120       _sfc_api_chart_visible     1001d120 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c1d0       _sfc_api_active_instance   1001d1d0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c270       _sfc_api_machine_load      1001d270 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c370       _sfc_api_debugger_alive    1001d370 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c380       _sfc_api_go                1001d380 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c390       _sfc_api_step_over         1001d390 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c3a0       _sfc_api_step_out          1001d3a0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c3b0       _sfc_api_resume            1001d3b0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c3c0       _sfc_api_break             1001d3c0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c3d0       _sfc_api_stop_debugging    1001d3d0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c420       _sfc_api_is_cycle_detected 1001d420 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c470       _sfc_api_is_array_bounds_detected 1001d470 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c4c0       _sfc_api_set_disable_all_breakpoints 1001d4c0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c550       _sfc_api_disable_all_breakpoints_and_go 1001d550 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c560       _sfc_api_close             1001d560 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c570       _sfc_api_browse_data       1001d570 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c5f0       _sfc_api_watch_data        1001d5f0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c6e0       _sfc_api_extract_message_post_receive_info 1001d6e0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c700       _sfc_api_assign_data       1001d700 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c780       _sfc_api_whos              1001d780 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c810       _sfc_api_get_consistency_info 1001d810 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c830       _sfc_api_browse_trace      1001d830 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c850       _sfc_api_break_on_chart_entry 1001d850 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c890       _sfc_api_break_on_event_broadcast 1001d890 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c8d0       _sfc_api_break_on_state_entry 1001d8d0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c910       _sfc_api_set_watch         1001d910 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001c9f0       _sfc_api_set_breakpoints   1001d9f0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cad0       _sfc_api_set_eml_breakpoints 1001dad0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cb80       _sfc_api_set_script_breakpoints 1001db80 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cbe0       _sfc_api_add_script_breakpoints 1001dbe0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cc40       _sfc_api_clear_script_breakpoints 1001dc40 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cca0       _sfc_api_query_script_breakpoints 1001dca0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cd10       _sfc_api_get_script_id     1001dd10 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cdb0       _sfc_api_get_active_states 1001ddb0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001ce20       _sfc_api_break_between_times 1001de20 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001ce80       _sfc_api_get_instance_handle 1001de80 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cf60       _sfc_api_set_animation     1001df60 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001cfc0       _sfc_api_select_chart      1001dfc0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d050       _sfc_api_select_charts     1001e050 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d080       _sfc_api_cycle_detection_check 1001e080 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d0e0       _sfc_api_data_range_check  1001e0e0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d140       _sfc_api_transition_conflict_check 1001e140 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d1a0       _sfc_api_state_consistency_check 1001e1a0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d200       _sfc_api_set_instance_cv_ids 1001e200 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d330       _sfc_api_set_script_cv_ids 1001e330 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d3f0       _sfc_api_get_current_machine_id 1001e3f0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d420       _sfc_api_get_current_machine_number 1001e420 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d450       _sfc_api_get_current_chart_number 1001e450 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d480       _sfc_api_get_current_instance_number 1001e480 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d4b0       _sfc_api_get_current_instance_handle 1001e4b0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d4d0       _sfc_api_get_current_is_minor_time_step 1001e4d0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d500       _sfc_api_get_current_machine_name 1001e500 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d520       _sfc_api_get_current_chart_id 1001e520 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d550       _sfc_api_get_current_object_type 1001e550 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d580       _sfc_api_get_current_event_type 1001e580 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d5b0       _sfc_api_get_current_object_id 1001e5b0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d5e0       _sfc_get_current_active_event_type 1001e5e0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d610       _sfc_api_get_current_active_event_id 1001e610 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d640       _sfc_api_get_current_simulation_time 1001e640 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d660       _sfc_get_current_tag_type  1001e660 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d690       _sfc_get_current_coverage_percentage 1001e690 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d6b0       _sfc_get_current_statement_context 1001e6b0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d6d0       _sfc_get_current_optional_integer 1001e6d0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d700       _sfc_get_current_statement_info 1001e700 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001d7a0       _sfc_api_get               1001e7a0 f   sfc_debugmsvc80:sfc_api.obj
+ 0001:0001e1e0       _sf_debug_sm_fill_state_activity_data 1001f1e0 f   sfc_debugmsvc80:sfdb_animation.obj
+ 0001:00020450       _void_ptr_stack_vector_free_total 10021450 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:000204b0       _sf_debug_st_terminate_machine 100214b0 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:000204e0       _sf_debug_st_terminate_instance 100214e0 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020660       _push_on_to_void_ptr_stack 10021660 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020790       _pop_from_void_ptr_stack   10021790 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020890       _sf_debug_st_get_data_value 10021890 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020d30       _mx_value                  10021d30 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00020d60       _sf_debug_st_fill_data_struct 10021d60 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00021030       _data_type_format_strings  10022030 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:000210a0       _sf_debug_st_fill_data     100220a0 f   sfc_debugmsvc80:sfdb_data_browse.obj
+ 0001:00021a90       _sf_debug_hm_get_simulink_handle 10022a90 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022420       _sf_debug_hm_initialize_globals 10023420 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022510       _sf_debug_hm_get_machine_debug_flag 10023510 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022660       _sf_debug_hm_get_machine_id 10023660 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022770       _sf_debug_hm_get_chart_id  10023770 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:000228e0       _sf_debug_hm_register_executing_SFunction 100238e0 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022be0       _sf_debug_hm_form_object_boolean_properties 10023be0 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00022e50       _sf_debug_hm_form_object_properties 10023e50 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00023050       _sf_debug_hm_terminate_charts 10024050 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00023650       _sf_debug_hm_terminate_machines 10024650 f   sfc_debugmsvc80:sfdb_handle_management.obj
+ 0001:00024e20       _sf_debug_ss_copy_dimension 10025e20 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024e90       _sf_debug_ss_get_number_elements 10025e90 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00024eb0       _sf_debug_ss_fill_data_struct 10025eb0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000250a0       _sf_debug_ss_reset_data_info 100260a0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000250f0       _sf_debug_fill_data_info_by_symbol_scope_entry 100260f0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000251a0       _sf_debug_fill_data_info_by_data_vector 100261a0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025360       _get_data_info_helper      10026360 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000253e0       _sf_debug_ss_get_data_info 100263e0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025590       _sf_debug_select_mex_function 10026590 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000255c0       _sf_debug_is_dyn_matrix_initialized 100265c0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000255e0       _sf_debug_ss_set_data_value_try 100265e0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025710       _sf_debug_ss_get_data_value 10026710 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025c40       _sf_debug_ss_data_bytes_string 10026c40 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00025cb0       _sf_debug_ss_data_class_string 10026cb0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00026000       _sf_debug_ss_data_size_string 10027000 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000260c0       _sf_debug_ss_data_create_data_info_struct 100270c0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00026320       _sf_debug_ss_data_create_name_value_pair 10027320 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00026380       _sf_debug_ss_data_get_whos_info 10027380 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:000263b0       _same_named_data_in_data_array 100273b0 f   sfc_debugmsvc80:sfdb_symbol_scope.obj
+ 0001:00027910       _sf_debug_cc_terminate_chart 10028910 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00027bf0       _sf_debug_cc_terminate_instance 10028bf0 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028640       _sf_debug_cc_mark_object_if_needed 10029640 f   sfc_debugmsvc80:sfdb_coverage.obj
+ 0001:00028dc0       _sf_debug_bm_initialize_eml 10029dc0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00029da0       _sf_debug_bm_map_debug_tag_to_breakpoint_tag 1002ada0 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:00029e40       _sf_debug_bm_is_a_eml_breakpoint_impl 1002ae40 f   sfc_debugmsvc80:sfdb_breakpoints.obj
+ 0001:0002b4b0       _sf_debug_sc_push_on_error_stack 1002c4b0 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002b5c0       _sf_debug_sc_reset_error_stack 1002c5c0 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002b710       _sf_debug_sc_is_state_inconsistent 1002c710 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002b930       _sf_debug_sc_fill_consistency_info 1002c930 f   sfc_debugmsvc80:sfdb_state_consistency.obj
+ 0001:0002bdb0       _void_assertion_fcn        1002cdb0 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c2a0       _sf_debug_tm_fill_local_trace 1002d2a0 f   sfc_debugmsvc80:sfdb_call_stack.obj
+ 0001:0002c720       _sf_debug_cd_terminate_instance 1002d720 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002c780       _sf_debug_cd_free_checksum_stack 1002d780 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002c7b0       _sf_debug_cd_reset_pack_strings 1002d7b0 f   sfc_debugmsvc80:sfdb_cycle_detection.obj
+ 0001:0002ce00       _md5file_clear             1002de00 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002ce30       _Encode                    1002de30 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002ce70       _Decode                    1002de70 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002cef0       _MD5Transform              1002def0 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002d5b0       _md5file_addn              1002e5b0 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002d660       _md5file_hash              1002e660 f   sfc_debugmsvc80:ckmd5.obj
+ 0001:0002db19       _pre_c_init                1002eb19 f   MSVCRT:crtdll.obj
+ 0001:0002dd71       ___DllMainCRTStartup       1002ed71 f   MSVCRT:crtdll.obj
